@@ -5457,6 +5457,10 @@ Subscribed,Εγγραφή
 Unsubscribed,Διαγραφήκατε
 Unconfirmed,Ανεπιβεβαίωτες
 "Newsletter Subscriptions","Συνδρομές σε Ενημερωτικά Δελτία"
+"We have saved your subscription.","Έχουμε σώσει τη συνδρομή σας."
+"A confirmation request has been sent.","Έχει σταλεί μία αίτηση επιβεβαίωσης."
+"We have removed your newsletter subscription.","Έχουμε αφαιρέσει τη συνδρομή σας ενημερωτικού δελτίου."
+"We have updated your subscription.","Έχουμε ανανεώσει τη συνδρομή σας."
 "Make Check payable to:","Κάντε την επιταγή πληρωτέα σε:"
 "Send Check to:","Αποστολή Επιταγής σε:"
 "Make Check payable to: %1","Κάντε την επιταγή πληρωτέα σε: %1"
