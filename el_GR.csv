@@ -1769,6 +1769,9 @@ Category,Κατηγορία
 "The image does not exist.","Η εικόνα δεν υπάρχει."
 "Please correct the image file type.","Παρακαλώ διορθώστε τον τύπο αρχείου της εικόνας."
 "We couldn't move this file: %1.","Δεν καταφέραμε να μετακινήσουμε αυτό το αρχείο: %1."
+"Can't get information about the picture: %1","Δεν είναι δυνατή η λήψη πληροφοριών σχετικά με την εικόνα: %1"
+"The image could not be resized: ","Δεν ήταν δυνατή η αλλαγή μεγέθους της εικόνας: "
+"Some images could not be resized. See log file for details.","Δεν ήταν δυνατή η αλλαγή μεγέθους ορισμένων εικόνων. Ανατρέξτε στο αρχείο καταγραφής για λεπτομέρειες."
 "The option type to get group instance is incorrect.","Ο τύπος επιλογής για να πάρει την παρουσία ομάδας είναι εσφαλμένος."
 "Select type options required values rows.","Επιλέξτε απαιτούμενες τιμές γραμμών τύπο επιλογών."
 "ProductSku should be specified","Θα πρέπει να καθοριστεί Sku Προϊόντος"
@@ -1801,6 +1804,9 @@ Category,Κατηγορία
 "Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.","Μη έγκυρο κόστος χαρακτηριστικού = %cost. Αναγνωριστικό σειράς: SKU = %SKU, Αναγνωριστικό καταστήματος: %storeId."
 "Could not save Prices.","Αδύνατη η αποθήκευση Τιμών."
 "Could not delete Prices","Αδυναμία διαγραφής Τιμών"
+"Could not save Tier Prices","Αδύνατη η αποθήκευση Κλιμακωτών Τιμών"
+"Could not replace Tier Prices","Αδύνατη η αντικατάσταση Κλιμακωτών Τιμών"
+"Could not delete Tier Prices","Αδύνατη η διαγραφή Κλιμακωτών Τιμών"
 "This product doesn't have tier price","Αυτό το προϊόν δεν έχει βαθμίδα τιμής"
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Το προϊόν δεν έχει ομάδα τιμής με τέτοια δεδομένα: customerGroupId = '%1', ιστοσελίδα = %2, ποσ = %3"
 "Invalid data provided for tier_price","Μη έγκυρα δεδομένα για tier_price"
@@ -1828,6 +1834,7 @@ Category,Κατηγορία
 "Product with SKU ""%1"" does not exist","Δεν υπάρχει προϊόν με SKU ""%1"""
 "Invalid product data: %1","Μη έγκυρα δεδομένα προϊόντος: %1"
 "Database connection error","Σφάλμα σύνδεσης βάσης δεδομένων"
+"Database lock wait timeout exceeded","Υπέρβαση χρόνου αναμονής κλειδώματος βάσης δεδομένων"
 "Unable to remove product %1","Δεν είναι δυνατή η κατάργηση προϊόντος %1"
 "Requested product does not support images.","Το ζητούμενο προϊόν δεν υποστηρίζει εικόνες."
 "There are not websites for assign to product","Δεν υπάρχουν ιστοσελίδες για ανάθεση σε προϊόν"
@@ -1842,9 +1849,13 @@ Category,Κατηγορία
 Dropdown,"Αναπτυσσόμενο μενού"
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 δεν επεκτείνει το \Magento\Framework\Filter\Template"
 test,δοκιμή
+"Some text is here.","Κάποιο κείμενο είναι εδώ."
 "Some exception","Κάποια εξαίρεση"
+"Could not get extension attributes","Δεν ήταν δυνατή η λήψη χαρακτηριστικών επέκτασης"
 message,μήνυμα
+"Lock wait timeout","Χρονικό όριο αναμονής κλειδώματος"
 "Advanced Pricing","Τιμολόγηση για προχωρημένους"
+"Customer Group Price","Ομαδική Τιμή Πελάτη"
 "Customer Group","Ομάδα Πελατών"
 "Special Price From","Ειδική τιμή από"
 "Product Alerts","Ειδοποιήσεις Προϊόντος(ων)"
@@ -1861,6 +1872,7 @@ message,μήνυμα
 "Option Type","Τύπος Επιλογής"
 "Max Characters","Μέγιστοι Χαρακτήρες"
 "Compatible File Extensions","Συμβατό με Επεκτάσεις Αρχείου"
+"Enter separated extensions, like: png, jpg, gif.","Εισαγάγετε ξεχωριστές επεκτάσεις, όπως: png, jpg, gif."
 "Maximum Image Size","Μέγιστο μέγεθος εικόνας"
 "Please leave blank if it is not an image.","Παρακαλούμε αφήστε κενό αν δεν είναι μια εικόνα."
 "This item has weight","Αυτό το στοιχείο έχει βάρος"
@@ -1877,6 +1889,7 @@ message,μήνυμα
 "Cross-Sell Products","Εμφάνιση Διασταυρούμενων Προϊόντων"
 "Schedule Update From","Προγραμματισμένη Ενημέρωση Από"
 "Product in Websites","Προϊόν σε ιστοσελίδες"
+"If your Magento installation has multiple websites, you can edit the scope to use the product on specific sites.","Εάν η εγκατάστασή σας Magento διαθέτει πολλούς ιστότοπους, μπορείτε να επεξεργαστείτε το πεδίο εφαρμογής για να χρησιμοποιήσετε το προϊόν σε συγκεκριμένους ιστότοπους."
 name,όνομα
 "Copy Data from","Αντιγράψτε τα δεδομένα από"
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","Εάν δεν υπάρχουν προσαρμοσμένες γονικές κατηγορίες, παρακαλούμε χρησιμοποιήστε την προεπιλεγμένη κατηγορία γονέα. Να εκχωρείτε την κατηγορία ανά πάσα στιγμή σε <a href=""%1"" target=""_blank"">προϊόντα > κατηγορίες</a>."
@@ -2029,6 +2042,8 @@ Comma-separated.,"Διαχωρισμένες με κόμμα."
 "Use Static URLs for Media Content in WYSIWYG for Catalog","Χρήση Στατικών Διευθύνσεων URL για Περιεχόμενο Πολυμέσων σε WYSIWYG για Κατάλογο"
 "This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Αυτό ισχύει μόνο για προϊόντα καταλόγου και κατηγορίες. Το περιεχόμενο πολυμέσων θα εισαχθεί στο πρόγραμμα επεξεργασίας ως στατική διεύθυνση URL. Το περιεχόμενο των πολυμέσων δεν ενημερώνεται, εάν η ρύθμιση παραμέτρων συστήματος URL βάσης αλλάξει."
 "Top Level Category","Κορυφαίο Επιπέδο Κατηγορίας"
+"Product Info Column","Στήλη Πληροφοριών Προϊόντος"
+"Block after Info Column","Τμήμα μετά τη Στήλη Πληροφοριών"
 "Product Flat Data","Επίπεδα Δεδομένα Προϊόντος"
 "Reorganize EAV product structure to flat structure","Αναδιοργάνωση δομής προϊόντος EAV σε επίπεδη δομή"
 "Category Flat Data","Επίπεδα Δεδομένα Κατηγορίας"
@@ -2076,6 +2091,7 @@ Template,Πρότυπο
 "List of Products Recently Viewed by Visitor","Κατάλογος των προϊόντων που πρόσφατα προβλήθηκαν από επισκέπτη"
 "UI Component","Στοιχείο Περιβάλλοντος Εργασίας Χρήστη"
 "Number of Products to display","Αριθμός Προϊόντων για Προβολή"
+"Product attributes to show","Χαρακτηριστικά προϊόντος που θα εμφανίζονται"
 Image,Εικόνα
 "Learn More Link","Σύνδεσμος Μάθετε Περισσότερα"
 "Buttons to show","Κουμπιά για προβολή"
@@ -2096,6 +2112,7 @@ Set,Ορίστε
 "Display Mode","Τρόπος Προβολής"
 Anchor,"Σημείο Αγκύρωσης"
 "Use All","Χρήση Όλων"
+"Default Product Listing Sort By","Προεπιλεγμένη Ταξινόμηση Λίστας Προϊόντων Κατά"
 "Layered Navigation Price Step","Βήμα τιμών Πολυεπίπεδης πλοήγησης"
 "URL Key","URL κλειδί"
 "Meta Title",Μέτα-Τίτλος
@@ -2151,6 +2168,7 @@ Overview,Επισκόπηση
 "You moved the category","Μετακινήσατε την κατηγορία"
 "This product no longer exists.","Αυτό το προϊόν δεν υπάρχει πλέον."
 "We can't find the image file.","Δεν μπορούμε να βρούμε το αρχείο εικόνας."
+"productFactory is already set","productFactory έχει ήδη ρυθμιστεί"
 "Could not save product option","Αδύνατη η αποθήκευση της επιλογής προϊόντος"
 "Product option with id %1 does not exist","Δεν υπάρχει επιλογή προϊόντος με αναγνωριστικό %1"
 "Are you sure you want to delete this category?","Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την κατηγορία;"
@@ -2173,6 +2191,7 @@ text,κείμενο
 "Default Product Sorting","Προεπιλεγμένη ταξινόμηση προϊόντων"
 "Use Parent Category Settings","Χρησιμοποιήστε τις Ρυθμίσεις Γονικής Κατηγορίας"
 "Page not found","Η σελίδα δεν βρέθηκε"
+"Full file path is expected.","Αναμένεται πλήρης διαδρομή αρχείου."
 from,από
 to,σε
 "The attribute couldn't be saved due to an error. Verify your information and try again. If the error persists, please try again later.","Το χαρακτηριστικό δεν μπορεί να αποθηκευτεί λόγο σφάλματος. Επιβεβαιώστε τις πληροφορίες σας και δοκιμάστε ξανά. Αν το σφάλμα επιμένει, δοκιμάστε ξανά αργότερα."
@@ -2182,17 +2201,47 @@ to,σε
 remaining,απομένουν
 "too many","πάρα πολλά"
 "This value does not follow the specified format (for example, 200X300).","Η τιμή αυτή δεν ακολουθεί την καθορισμένη μορφή (για παράδειγμα, 200Χ300)."
+"Applies to category pages","Ισχύει για σελίδες κατηγοριών"
 Quality,Ποιότητα
+"Jpeg quality for resized images 1-100%.","Ποιότητα Jpeg για αλλαγή μεγέθους εικόνων 1-100%."
 Cost,Κόστος
 "The ""%1"" attribute is required. Enter and try again.","Η ιδιότητα ""%1"" είναι απαραίτητη. Εισάγετε και προσπαθήστε ξανά."
+"Attributes were missing and must be specified.","Τα χαρακτηριστικά λείπουν και πρέπει να διευκρινιστούν."
 "The value of Admin must be unique. (%1)","Η τιμή του Διαχειριστή πρέπει να είναι μοναδική. (%1)"
 "The product was unable to be saved. Please try again.","Το προϊόν δεν ήταν δυνατόν να αποθηκευτεί. Παρακαλώ δοκιμάστε ξανά."
+"The value of the ""%1"" attribute isn't unique. Set a unique value and try again.","Η τιμή του χαρακτηριστικού ""%1"" δεν είναι μοναδική. Ορίστε μια μοναδική τιμή και δοκιμάστε ξανά."
+"The category doesn't contain the specified product.","Η κατηγορία δεν περιέχει το συγκεκριμένο προϊόν."
+"The %1 value wasn't found in the algorithms.","Η τιμή %1 δεν βρέθηκε στους αλγόριθμους."
+"The filters are invalid. Set them in an array and try again.","Τα φίλτρα δεν είναι έγκυρα. Ορίστε τα σε μια συστοιχία και δοκιμάστε ξανά."
+"The product wasn't registered.","Το προϊόν δεν καταχωρήθηκε."
+"The store wasn't registered. Verify the store and try again.","Το κατάστημα δεν καταχωρήθηκε. Επαληθεύστε το κατάστημα και δοκιμάστε ξανά."
+"The ""%1"" attribute value is empty. Set the attribute and try again.","Η τιμή χαρακτηριστικού ""%1"" είναι κενή. Ορίστε το χαρακτηριστικό και δοκιμάστε ξανά."
+"The image content is invalid. Verify the content and try again.","Το περιεχόμενο της εικόνας δεν είναι έγκυρο. Επαληθεύστε το περιεχόμενο και δοκιμάστε ξανά."
+"The product can't be saved.","Το προϊόν δεν μπορεί να αποθηκευτεί."
+"No image with the provided ID was found. Verify the ID and try again.","Δεν βρέθηκε εικόνα με το παρεχόμενο ID. Επαληθεύστε το ID και δοκιμάστε ξανά."
+"The product doesn't exist. Verify and try again.","Το προϊόν δεν υπάρχει. Επαληθεύστε και δοκιμάστε ξανά."
+"The image doesn't exist. Verify and try again.","Η εικόνα δεν υπάρχει. Επαληθεύστε και δοκιμάστε ξανά."
 "The image doesn't exist.","Η εικόνα δεν υπάρχει."
+"The image type for the file is invalid. Enter the correct image type and try again.","Ο τύπος εικόνας για το αρχείο δεν είναι έγκυρος. Εισαγάγετε τον σωστό τύπο εικόνας και δοκιμάστε ξανά."
+"The ""%1"" file couldn't be moved.","Δεν ήταν δυνατή η μετακίνηση του αρχείου ""%1""."
 "The ProductSku is empty. Set the ProductSku and try again.","Το Sku Προϊόντος είναι κενό. Ορίστε το Sku Προϊόντος και δοκιμάστε ξανά."
+"The custom option couldn't be removed.","Δεν ήταν δυνατή η κατάργηση της προσαρμοσμένης επιλογής."
+"The file is empty. Select another file and try again.","Το αρχείο είναι κενό. Επιλέξτε ένα άλλο αρχείο και δοκιμάστε ξανά."
+"The text is too long. Shorten the text and try again.","Το κείμενο είναι πολύ μεγάλο. Συντομεύστε το κείμενο και δοκιμάστε ξανά."
+"The file upload failed. Try to upload again.","Η μεταφόρτωση αρχείου απέτυχε. Προσπαθήστε να μεταφορτώσετε ξανά."
+"The group with the ""%1"" ID doesn't exist. Verify the ID and try again.","Η ομάδα με το ID ""%1"" δεν βρέθηκε. Επιβεβαιώστε το ID και δοκιμάστε ξανά."
 "The product that was requested doesn't exist. Verify the product and try again.","Το προϊόν που ζητήθηκε δεν υπάρχει. Επιβεβαιώστε το προϊόν και δοκιμάστε ξανά."
+"The Product with the ""%1"" SKU doesn't exist.","Το προϊόν με το ""%1"" SKU δεν υπάρχει."
+"The ""%1"" product couldn't be removed.","Το προϊόν ""%1"" δεν ήταν δυνατόν να αφαιρεθεί."
+"Category with ID: %s doesn't exist","Δεν υπάρχει κατηγορία με ID: ""%s"""
+"Product Name or SKU","Όνομα Προϊόντος ή SKU"
+"Start typing to find products","Ξεκινήστε την πληκτρολόγηση για να βρείτε προϊόντα"
+"Product with ID: %s doesn't exist","Το προϊόν με ID: %s δεν υπάρχει"
 "Use Static URLs for Media Content in WYSIWYG","Χρήση Στατικών Διευθύνσεων URL για Περιεχόμενο Πολυμέσων σε WYSIWYG"
 "Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Το περιεχόμενο πολυμέσων θα εισαχθεί στο πρόγραμμα επεξεργασίας ως στατική διεύθυνση URL. Το περιεχόμενο των πολυμέσων δεν ενημερώνεται, εάν η ρύθμιση παραμέτρων συστήματος URL βάσης αλλάξει."
 "Default Layouts","Προεπιλεγμένες Διατάξεις"
+"Default Product Layout","Προεπιλεγμένη Διάταξη Προϊόντος"
+"Default Category Layout","Προεπιλεγμένη Διάταξη Κατηγορίας"
 "
                     Time in seconds between the widget updates.
                     <br/>If not set, equals to 86400 seconds (24 hours). To update widget instantly, go to Cache Management and clear Blocks HTML Output cache.
@@ -2203,6 +2252,7 @@ Cost,Κόστος
  Διαχείριση Cache και εκκαθαρίστε την προσωρινή μνήμη cache της ενότητας HTML εξόδου.
                     <br/>Το Γραφικό στοιχείο δεν θα εμφανίσει προϊόντα που ξεκινούν να ταιριάζουν με τις καθορισμένες προϋποθέσεις μέχρι να ανανεωθεί η προσωρινή μνήμη cache.
                 "
+"Text Editor input type requires WYSIWYG to be enabled in Stores > Configuration > Content Management.","Ο τύπος εισαγωγής του Επεξεργαστή Κειμένου απαιτεί την ενεργοποίηση του WYSIWYG σε Καταστήματα > Διαμόρφωση > Διαχείριση Περιεχομένου."
 "Attribute code ""%1"" is invalid. Please use only letters (a-z or A-Z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Κωδικός Χαρακτηριστικού ""%1"" δεν είναι έγκυρος. Παρακαλούμε χρησιμοποιήστε μόνο γράμματα (a-z ή A-Z), αριθμών (0-9) ή χαρακτήρες υπογράμμισης (_) σε αυτό το πεδίο, ο πρώτος χαρακτήρας πρέπει να είναι ένα γράμμα."
 "Edit Event","Επεξεργασία γεγονότος"
 "Add Event","Προσθήκη γεγονότος"
@@ -2361,7 +2411,6 @@ Stock,Απόθεμα
 "The ""%1"" value is invalid for stock ID. Enter stock with a default value of %2 to try again.","Η τιμή ""%1"" δεν είναι έγκυρη για ID αποθέματος. Εισαγάγετε απόθεμα με προεπιλεγμένη τιμή %2 για να δοκιμάσετε ξανά."
 "The ""%1"" value is invalid for stock item ID. Enter either zero or a number than zero to try again.","Η τιμή ""%1"" δεν είναι έγκυρη για το ID στοιχείου αποθέματος. Εισαγάγετε είτε μηδέν είτε αριθμό από μηδέν για να προσπαθήσετε ξανά."
 "The ""%1"" value is invalid for stock item ID. Use the stock item ID's assigned ""%2"" value and try again.","Η τιμή ""%1"" δεν είναι έγκυρη για το ID στοιχείου αποθέματος. Χρησιμοποιήστε την τιμή ""%2"" του ID στοιχείου αποθέματος και δοκιμάστε ξανά."
-"The Product with the ""%1"" SKU doesn't exist.","Το προϊόν με το ""%1"" SKU δεν υπάρχει."
 "The requested qty is not available","Η απαιτούμενη ποσότητα δεν είναι διαθέσιμη"
 "Quantity increments can't use decimals. Enter a new increment and try again.","Οι αυξήσεις ποσότητας δεν μπορούν να χρησιμοποιούν δεκαδικά ψηφία. Εισαγάγετε μια νέα αύξηση και δοκιμάστε ξανά."
 "New Permission","Νέα άδεια"
@@ -2921,26 +2970,41 @@ Prefix:,Πρόθεμα:
 Suffix:,Επίθημα:
 Gender:,Φύλο:
 Duplicated,Κλωνοποιήθηκε
+"Company Structure","Δομή Εταιρείας"
 "New Company","Νέα Εταιρεία"
+"Thank you! We're reviewing your request and will contact you soon","Σας ευχαριστώ! Εξετάζουμε το αίτημά σας και θα επικοινωνήσουμε μαζί σας σύντομα"
+"An error occurred on the server. Your changes have not been saved.","Παρουσιάστηκε σφάλμα στο διακομιστή. Οι αλλαγές σας δεν έχουν αποθηκευτεί."
 "Create New Company","Δημιουργία Νέας Εταιρείας"
 "Something went wrong. Please try again later.","Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε αργότερα."
 "Invalid value of ""%value"" provided for the email field.","Μη έγκυρη τιμή του ""%value"" δόθηκε για το πεδίο email."
+"Invalid value ""%value"" given for the website ID field.","Μη έγκυρη τιμή ""%value"" για το πεδίο ID ιστότοπου."
+"You have deleted company %companyName.","Διαγράψατε την εταιρεία %companyName."
 "The company no longer exists.","Η εταιρία δεν υπάρχει πλέον."
 "The requested company is not found","Η ζητούμενη εταιρία δεν βρέθηκε"
 "can not be saved","δεν μπορεί να αποθηκευτεί"
 "A total of %1 record(s) were deleted.","Συνολικά %1 εγγραφη(ές) διαγράφηκαν."
 "Could not save company","Δεν ήταν δυνατή η αποθήκευση της εταιρίας"
+"You have saved company %companyName.","Αποθηκεύσατε την εταιρεία %companyName."
+"You have created company %companyName.","Δημιουργήσατε την εταιρεία %companyName."
+"A user with this email address already exists in the system. If you proceed, the user will be linked to your company.","Ένας χρήστης με αυτήν τη διεύθυνση email υπάρχει ήδη στο σύστημα. Εάν συνεχίσετε, ο χρήστης θα συνδεθεί με την εταιρεία σας."
+"A user with this email address is already a member of your company.","Ένας χρήστης με αυτήν τη διεύθυνση email είναι ήδη μέλος της εταιρείας σας."
+"A user with this email address already exists in the system. Enter a different email address to create this user.","Ένας χρήστης με αυτήν τη διεύθυνση email υπάρχει ήδη στο σύστημα. Καταχωρίστε μια διαφορετική διεύθυνση email για τη δημιουργία αυτού του χρήστη."
 "You are not allowed to do this.","Δεν επιτρέπεται να το κάνετε αυτό."
 "Cannot create the customer.","Δεν είναι δυνατό να δημιουργήσετε τον πελάτη."
+"The customer was successfully created.","Ο πελάτης δημιουργήθηκε με επιτυχία."
 "You cannot delete yourself.","Δεν μπορείτε να διαγράψετε τον εαυτό σας."
 "Cannot delete this user.","Δεν μπορείτε να διαγράψετε αυτόν τον χρήστη."
 "The customer was successfully deleted.","Ο πελάτης διαγράφηκε με επιτυχία."
 "The customer was successfully updated.","Ο πελάτης ενημερώθηκε με επιτυχία."
 "Company Profile","Προφίλ Εταιρίας"
+"The changes you made on the company profile have been successfully saved.","Οι αλλαγές που κάνατε στο προφίλ της εταιρείας αποθηκεύτηκαν επιτυχώς."
+"You must fill in all required fields before you can continue.","Πρέπει να συμπληρώσετε όλα τα υποχρεωτικά πεδία για να μπορέσετε να συνεχίσετε."
 "Bad Request","Εσφαλμένο Αίτημα"
+"You have deleted role %companyRoleName.","Διαγράψατε τον ρόλο %companyRoleName."
 "Add New Role","Προσθήκη νέου ρόλου"
 "Edit Role","Επεξεργασία Ρόλου"
 "Roles and Permissions","Ρόλοι και Δικαιώματα"
+"The item was successfully moved.","Το στοιχείο μεταφέρθηκε με επιτυχία."
 "The team was successfully deleted.","Η ομάδα διαγράφηκε με επιτυχία."
 "The team was successfully updated.","Η ομάδα ενημερώθηκε με επιτυχία."
 "The team was successfully created.","Η ομάδα δημιουργήθηκε με επιτυχία."
@@ -3005,6 +3069,7 @@ Contacts,Επαφές
 "Dear %name,","Αγαπητέ/ή %name,"
 "When you sign in to your account, you can:","Όταν συνδεθείτε στο λογαριασμό σας, θα μπορείτε να:"
 "When you sign in to your account, you will be able to:","Όταν συνδεθείτε στο λογαριασμό σας, θα είστε σε θέση να:"
+"If you have any questions, please contact the seller.","Εάν έχετε οποιεσδήποτε ερωτήσεις, επικοινωνήστε με τον πωλητή."
 "Delete a Company?","Διαγραφή Εταιρείας;"
 "No results","Κανένα αποτέλεσμα"
 Proceed,Προχωρήστε
@@ -3014,29 +3079,42 @@ Proceed,Προχωρήστε
 "Edit User","Επεξεργασία χρήστη"
 "Cannot Delete User","Δεν είναι δυνατή η Διαγραφή του Χρήστη"
 "Delete this user?","Διαγραφή αυτού του χρήστη;"
+"This action cannot be undone. Are you sure you want to delete this user?","Αυτή η ενέργεια δε μπορεί να αναιρεθεί. Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον χρήστη;"
 "Edit Team","Διόρθωση Ομάδας"
+"Cannot Delete This Team","Δεν Μπορείτε να Διαγράψετε Αυτή την Ομάδα"
 "Delete this team?","Διαγραφή αυτής της ομάδας;"
+"This action cannot be undone. Are you sure you want to delete this team?","Αυτή η ενέργεια δε μπορεί να αναιρεθεί. Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την ομάδα;"
 "Delete This Role?","Διαγραφή Αυτού του Ρόλου;"
+"This action cannot be undone. Are you sure you want to delete this role?","Αυτή η ενέργεια δε μπορεί να αναιρεθεί. Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον ρόλο;"
 "Cannot Delete Role","Δεν είναι δυνατή η Διαγραφή του Ρόλου"
 "Cannot Delete Customer","Δεν είναι δυνατή η Διαγραφή του Πελάτη"
+"Set Inactive","Ορίστε Ανενεργό"
 "Enable Company","Ενεργοποίηση Εταιρίας"
 "Company Configuration","Ρυθμίσεις Εταιρίας"
 Comma-separated,"Διαχωρισμένες με κόμμα"
 "Send Email Copy Method","Μέθοδος Αποστολής Αντίγραφου Email"
+"Send Company Status Change Email Copy To","Αποστείλετε Αντίγραφο Email Αλλαγής Κατάστασης Εταιρείας Σε"
+"This email is sent when company status changes to Rejected.","Αυτό το email αποστέλλεται όταν η κατάσταση της εταιρείας αλλάζει σε Απορρίφθηκε."
+"This email is sent when company status changes Blocked.","Αυτό το email αποστέλλεται όταν η κατάσταση της εταιρείας αλλάζει σε Αποκλεισμένη."
+"This email is sent when company status changes to Pending Approval.","Αυτό το email αποστέλλεται όταν η κατάσταση της εταιρείας αλλάζει σε Εκκρεμότητα Έγκρισης."
 "Account Information (View)","Πληροφορίες Λογαριασμού (Προβολή)"
 "Legal Address (View)","Νόμιμη Διεύθυνση (Προβολή)"
 "Contacts (View)","Επαφές (Προβολή)"
 "View roles and permissions","Προβολή ρόλων και δικαιωμάτων"
 "Manage roles and permissions","Διαχείριση ρόλων και δικαιωμάτων"
 "View users and teams","Προβολή χρηστών και ομάδων"
+"Manage users and teams","Διαχείριση χρηστών και ομάδων"
 "Checkout (place order)","Ολοκλήρωση Παραγγελίας (υποβολή παραγγελίας)"
 "View orders","Προβολή παραγγελιών"
+"Are you sure you want to set the selected companies as active?","Είστε βέβαιοι ότι θέλετε να ορίσετε τις επιλεγμένες εταιρείες ως ενεργές;"
+"Set Active","Ορίστε Ενεργό"
 "Reseller ID","ID Μεταπωλητή"
 Comment,Σχόλιο
 ZIP,TK
 "Company Admin","Διαχειριστής Εταιρίας"
 Gender,Φύλο
 "Customer Type","Τύπος Πελάτη"
+"Please specify the reason","Παρακαλείστε να προσδιορίσετε την αιτία"
 "Reason for Rejection","Λόγος για Απόρριψη"
 "VAT / TAX ID",Α.Φ.Μ
 Prefix,Πρόθεμα
@@ -3107,6 +3185,7 @@ Reverted,Επανήλθαν
 "Purchase Order Number","Αριθμός Παραγγελίας Αγοράς"
 "Charged off the company credit: %1","Χρεώθηκε από το πιστωτικό της εταιρείας: %1"
 "Purchase Order Number: %1","Αριθμός Παραγγελίας Αγοράς: %1"
+"The base currency for %1 has been updated. The currency %2 is still defined as the credit currency for one or more companies. Use the following <a href=""%3"" id=""update-credit-link"">link</a> to perform a bulk operation that updates the credit currency for those companies.","Το βασικό νόμισμα για το %1 έχει ενημερωθεί. Το νόμισμα %2 εξακολουθεί να ορίζεται ως το νόμισμα πίστωσης για μία ή περισσότερες εταιρείες. Χρησιμοποιήστε τον παρακάτω <a href=""%3"" id=""update-credit-link"">σύνδεσμο</a> για να εκτελέσετε μια μαζική ενέργεια που ενημερώνει το νόμισμα πίστωσης για αυτές τις εταιρείες."
 "%1 has exceeded its credit limit (%2) by %3. Its outstanding balance, including this order, currently totals %4.","%1 έχει υπερβεί το πιστωτικό όριο (%2) κατά %3. Το οφειλόμενο υπόλοιπο, συμπεριλαμβανομένης αυτής της παραγγελίας, ανέρχεται τώρα σε %4."
 "The credit limit for %1 is %2. Its outstanding balance, including this order, currently totals %3","Το πιστωτικό όριο για το %1 είναι %2. Το οφειλόμενο υπόλοιπο, συμπεριλαμβανομένης αυτής της παραγγελίας, ανέρχεται επί του παρόντος σε %3"
 "Outstanding Balance","Υπόλοιπο Εξόφλησης"
@@ -3121,7 +3200,6 @@ Reverted,Επανήλθαν
 "The history of your credit operations is available on the Company Credit page.","Το ιστορικό των πιστωτικών σας πράξεων είναι διαθέσιμο στη σελίδα Εταιρική Πίστωση."
 "%company_name account reimbursed","λογαριασμός %company_name έχει επιστραφεί"
 "Your company credit account has been reimbursed by %reimbursed_amount.","Στο λογαριασμό πίστωσης της εταιρείας σας έχει επιστραφεί %refunded_amount."
-"If you have any questions, please contact the seller.","Εάν έχετε οποιεσδήποτε ερωτήσεις, επικοινωνήστε με τον πωλητή."
 "%company_name credit limit updated","Το όριο πίστωσης %company_name ενημερώθηκε"
 "Your credit limit has been updated and is now %available_credit.
     Your outstanding balance currently totals %outstanding_balance. You are %exceed_limit to exceed the credit limit.","Το πιστωτικό σας όριο έχει ενημερωθεί και είναι τώρα %available_credit.
@@ -3141,12 +3219,20 @@ Reimburse,Επιστροφή
 "The credit limit for %s is %s. It will be exceeded by %s with this order.","Το πιστωτικό όριο για το %s είναι %s. Θα γίνει υπέρβαση κατά %s με αυτήν την παραγγελία."
 "Payment on Account","Πληρωμή σε Λογαριασμό"
 "Company Credit Change Email Sender","Αποστολέας Email Αλλαγής Πιστωτικού Εταιρείας"
+"Send Company Credit Change Email Copy To","Αποστείλετε Αντίγραφο Email Αλλαγής Πιστωτικού Εταιρείας Σε"
+"Allocated Email Template","Προκαθορισμένο Πρότυπο Email"
 "This email is sent to the Company Admin.","Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου αποστέλλεται στον Διαχειριστή της Εταιρείας."
 "Updated Email Template","Ενημερωμένο Πρότυπο Email"
 "Reimbursed Email Template","Πρότυπο Email Επιστροφής"
+"Refunded Email Template","Πρότυπο Email Επιστροφής"
+"Reverted Email Template","Πρότυπο Email Επαναφοράς"
 "Credit Currency","Νόμισμα Πιστωτικού"
 "Allow To Exceed Credit Limit","Να Επιτρέπεται η Υπέρβαση του Πιστωτικού Ορίου"
 "Reason For Change","Αιτία Για Αλλαγή"
+"
+                            Limit one PO number per reimburse transaction
+                        ","
+Περιορίστε έναν αριθμό PO ανά συναλλαγή αποπληρωμής                        "
 "
                                 Maximum 255 characters are allowed.
                         ","
@@ -3371,7 +3457,6 @@ Select,Επιλογή
 save,αποθήκευση
 "Configurable Product Image","Εικόνα Διαμορφώσιμου Προϊόντος"
 "As low as: ","Οι τιμές ξεκινούν από: "
-"productFactory is already set","productFactory έχει ήδη ρυθμιστεί"
 "catalogProductMediaConfig is already set","catalogProductMediaConfig έχει ήδη ρυθμιστεί"
 "Could not update option with id ""%1""","Δεν ήταν δυνατή η ενημέρωση της επιλογή με id ""%1"""
 "Product already has this option","Το προϊόν έχει ήδη αυτή την επιλογή"
@@ -3640,6 +3725,7 @@ Unlock,Ξεκλείδωμα
 "Invalid confirmation token","Μη έγκυρο διακριτικό επιβεβαίωσης"
 "The account is locked.","Ο λογαριασμός έχει κλειδωθεί."
 "This account is not confirmed.","Αυτός ο λογαριασμός δεν έχει επιβεβαιωθεί."
+"Invalid value of ""%value"" provided for the %fieldName field. Possible values: %template1 or %template2.","Μη έγκυρη τιμή ""%value"" για το πεδίο %fieldName. Πιθανές τιμές: %template1 ή %template2."
 "Please enter a password with at most %1 characters.","Παρακαλώ εισάγετε έναν κωδικό πρόσβασης το πολύ με %1 χαρακτήρες."
 "Please enter a password with at least %1 characters.","Παρακαλώ εισάγετε έναν κωδικό πρόσβασης με τουλάχιστον %1 χαρακτήρες."
 "The password can't begin or end with a space.","Ο κωδικός πρόσβασης δεν μπορεί να αρχίζει ή να τελειώνει με ένα κενό χαρακτήρα."
@@ -3866,6 +3952,7 @@ Strong,Ισχυρός
 "Show Prefix","Εμφάνιση προθέματος"
 "The title that goes before name (Mr., Mrs., etc.)","Ο τίτλος που πάει πριν από το όνομα (Κος, κα, κτλ.)"
 "Prefix Dropdown Options","Επιλογές Αναπτυσσόμενου μενού Προθέματος"
+"Semicolon (;) separated values.<br/>Leave empty for open text field.","Τιμές χωρισμένες με (;). <br/>Αφήστε κενό για πεδίο ανοιχτού κειμένου."
 "Show Middle Name (initial)","Εμφάνιση πατρώνυμο (αρχικό)"
 "Always optional.","Πάντα προαιρετική."
 "Show Suffix","Εμφάνιση επιθέματος"
@@ -3946,9 +4033,51 @@ Addresses,Διευθύνσεις
 "Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.","Το ερωτηματικό (;) διαχωρίζει τιμές. <br/> Βάλτε ερωτηματικό στην αρχή για την κενή πρώτη επιλογή. <br/> Αφήστε κενό για άνοιχτό πεδίο κειμένου."
 "Last Logged In","Τελευταία Σύνδεση Στις"
 "You are signed out.","Έχετε αποσυνδεθεί."
+"Invalid value of ""%value"" provided for the %fieldName field. Possible values are %template1 or %template2.","Μη έγκυρη τιμή ""%value"" για το πεδίο %fieldName. Πιθανές τιμές είναι %template1 ή %template2."
+"Could not authenticate. Please try again later","Δεν ήταν δυνατή η πιστοποίηση ταυτότητας. Παρακαλώ δοκιμάστε ξανά αργότερα"
+"Account will be unlocked after provided time.","Ο λογαριασμός θα ξεκλειδωθεί μετά την πάροδο του χρόνου."
+"Text One Line","Κείμενο Μία Γραμμή"
+"The password doesn't match this account. Verify the password and try again.","Ο κωδικός πρόσβασης δεν αντιστοιχεί στον συγκεκριμένο λογαριασμό. Επαληθεύστε τον κωδικό πρόσβασης και δοκιμάστε ξανά."
 "The email address is incorrect. Verify the email address and try again.","Η διεύθυνση email δεν είναι έγκυρη. Επιβεβαιώστε την διεύθυνση email και δοκιμάστε ξανά."
+"The customer ID isn't defined.","Δεν έχει οριστεί το ID πελάτη."
+"The quote items are incorrect. Verify the quote items and try again.","Τα στοιχεία προσφοράς είναι εσφαλμένα. Επαληθεύστε τα στοιχεία της προσφοράς και δοκιμάστε ξανά."
+"The ""%1"" section source isn't supported.","Η πηγή τμήματος ""%1"" δεν υποστηρίζεται."
+"Confirmation isn't needed.","Επιβεβαίωση δεν χρειάζεται."
+"The account is already active.","O λογαριασμός είναι ήδη ενεργός."
+"The confirmation token is invalid. Verify the token and try again.","Το διακριτικό επιβεβαίωσης δεν είναι έγκυρο. Επαληθεύστε το διακριτικό και δοκιμάστε ξανά."
+"This account isn't confirmed. Verify and try again.","Ο λογαριασμός δεν είναι επιβεβαιωμένος. Επιβεβαιώστε και δοκιμάστε ξανά."
+"The password needs at least %1 characters. Create a new password and try again.","Ο κωδικός πρόσβασης χρειάζεται τουλάχιστον %1 χαρακτήρες. Δημιουργήστε έναν νέο κωδικό πρόσβασης και δοκιμάστε ξανά."
+"The password can't begin or end with a space. Verify the password and try again.","Ο κωδικός πρόσβασης δεν μπορεί να ξεκινάει ή να τελειώνει με ένα κενό. Επαληθεύστε τον κωδικό πρόσβασης και δοκιμάστε ξανά."
 "The password can't be the same as the email address. Create a new password and try again.","Ο κωδικός πρόσβασης δεν μπορεί να είναι ο ίδιος με τη διεύθυνση ηλεκτρονικού ταχυδρομείου. Δημιουργήστε έναν νέο κωδικό πρόσβασης και προσπαθήστε ξανά."
+"The store view is not in the associated website.","Η προβολή καταστήματος δεν βρίσκεται στον αντίστοιχο ιστότοπο."
+"A customer with the same email address already exists in an associated website.","Ένας πελάτης με την ίδια διεύθυνση email υπάρχει ήδη σε έναν συσχετισμένο ιστότοπο."
+"The password token is mismatched. Reset and try again.","Το αναγνωριστικό κωδικού πρόσβασης δεν συμφωνεί. Επαναφέρετε και δοκιμάστε ξανά."
+"The password token is expired. Reset and try again.","Το διακριτικό κωδικού πρόσβασης έχει λήξει. Επαναφέρετε και δοκιμάστε ξανά."
+"The transactional account email type is incorrect. Verify and try again.","Το email του λογαριασμού συναλλαγής είναι εσφαλμένο. Επαληθεύστε και δοκιμάστε ξανά."
+"A valid password reset token is missing. Enter and try again.","Εμφανίζεται ένα έγκυρο διακριτικό επαναφοράς κωδικού πρόσβασης. Εισαγάγετε και δοκιμάστε ξανά."
+"The customer email is missing. Enter and try again.","Το email του πελάτη λείπει. Εισαγάγετε και δοκιμάστε ξανά."
+"A customer website ID wasn't specified. The ID must be specified to use the website scope.","Δεν προσδιορίστηκε ID ιστότοπου πελάτη. Το ID πρέπει να καθορίζεται για να χρησιμοποιεί το πεδίο εφαρμογής του ιστοτόπου."
+"""regionId"" is required. Enter and try again.","""regionId"" είναι απαραίτητο. Εισάγετε και προσπαθήστε ξανά."
+"Customer not logged in","Ο πελάτης δεν έχει συνδεθεί"
+"There is no address id in setting default billing address.","Δεν υπάρχει id διεύθυνσης για τη ρύθμιση της προεπιλεγμένης διεύθυνσης χρέωσης."
+"Default billing address has been changed.","Η προεπιλεγμένη διεύθυνση χρέωσης έχει αλλάξει."
+"We can't change default billing address right now.","Δεν μπορούμε να αλλάξουμε την προεπιλεγμένη διεύθυνση χρέωσης αυτή τη στιγμή."
+"There is no address id in setting default shipping address.","Δεν υπάρχει id διεύθυνσης για τη ρύθμιση της προεπιλεγμένης διεύθυνσης αποστολής."
+"Default shipping address has been changed.","Η προεπιλεγμένη διεύθυνση αποστολής έχει αλλάξει."
+"We can't change default shipping address right now.","Δεν μπορούμε να αλλάξουμε την προεπιλεγμένη διεύθυνση αποστολής αυτή τη στιγμή."
+"There is no such address entity to delete.","Δεν υπάρχει τέτοια οντότητα διευθύνσης για διαγραφή."
+"We can't mass delete the addresses right now.","Δεν μπορούμε να διαγράψουμε μαζικά τις διευθύνσεις αυτή τη στιγμή."
+"Customer address has been updated.","Η διεύθυνση του πελάτη έχει ενημερωθεί."
+"New customer address has been added.","Προστέθηκε νέα διεύθυνση πελάτη."
+"There is no customer with such id.","Δεν υπάρχει πελάτης με αυτό το id."
+"We can't change customer address right now.","Δεν μπορούμε να αλλάξουμε τη διεύθυνση του πελάτη αυτή τη στιγμή."
 Street,Οδός
+"Set as default billing","Ορισμός ως προεπιλεγμένη πληρωμή"
+"Set address as default billing","Ορισμός διεύθυνση ως προεπιλεγμένη πληρωμής"
+"Are you sure you want to set the address as default billing address?","Είστε βέβαιοι ότι θέλετε να ορίσετε τη διεύθυνση ως προεπιλεγμένη διεύθυνση χρέωσης;"
+"Set as default shipping","Ορισμός ως προεπιλεγμένη αποστολή"
+"Set address as default shipping","Ορισμός διεύθυνση ως προεπιλεγμένη αποστολής"
+"Are you sure you want to set the address as default shipping address?","Είστε βέβαιοι ότι θέλετε να ορίσετε τη διεύθυνση ως προεπιλεγμένη διεύθυνση αποστολής;"
 "Delete address","Διαγραφή διεύθυνσης"
 "Are you sure you want to delete the address?","Είστε βέβαιοι ότι θέλετε να διαγράψετε τη διεύθυνση;"
 "Additional addresses","Επιπλέον Διευθύνσεις"
@@ -4103,8 +4232,6 @@ available,διαθέσιμο
 "Current customer does not have permission to address with ID ""%address_id""","Ο τρέχων πελάτης δεν έχει δικαιώματα για διεύθυνση με ID ""%address_id"""
 "The current customer isn't authorized.","Ο τρέχων πελάτης δεν είναι εξουσιοδοτημένος."
 "Customer with id ""%customer_id"" does not exist.","Ο πελάτης με id ""%customer_id"" δεν υπάρχει."
-"This account isn't confirmed. Verify and try again.","Ο λογαριασμός δεν είναι επιβεβαιωμένος. Επιβεβαιώστε και δοκιμάστε ξανά."
-"A customer with the same email address already exists in an associated website.","Ένας πελάτης με την ίδια διεύθυνση email υπάρχει ήδη σε έναν συσχετισμένο ιστότοπο."
 "Provide the current ""password"" to change ""email"".","Καταχωρήστε το τρέχων ""password"" για να αλλάξετε το ""email""."
 "Specify the ""currentPassword"" value.","Ορίστε την τιμή ""currentPassword""."
 "Specify the ""newPassword"" value.","Ορίστε την τιμή ""newPassword""."
@@ -5339,7 +5466,9 @@ Creative,Δημιουργική
 "Export Settings","Ρυθμίσεις Εξαγωγής"
 "Entity Type","Τύπος Οντότητας"
 "Export File Format","Εξαγόμενη Μορφή Αρχείου"
+"Fields Enclosure","Περίβλημα Πεδίων"
 "We can't filter an attribute with no attribute options.","Δεν μπορούμε να φιλτράρουμε ένα χαρακτηριστικό χωρίς επιλογές χαρακτηριστικού."
+"Fixed Price: From","Σταθερή Τιμή: Από"
 Filter,Φίλτρο
 "Unknown attribute filter type","Άγνωστα τύπος φίλτρου χαρακτηριστικού"
 "Check Data","Έλεγχος Δεδομένων"
@@ -5351,6 +5480,7 @@ Filter,Φίλτρο
 "Please specify number of errors to halt import process","Παρακαλούμε να προσδιορίσετε αριθμό σφαλμάτων να σταματήσει η διαδικασία εισαγωγής"
 "Field separator","Διαχωριστικό πεδίου"
 "Multiple value separator","Διαχωριστικό Πολλαπλών Τιμών"
+"Fields enclosure","Περίβλημα πεδίων"
 "File to Import","Αρχείο για εισαγωγή"
 "Select File to Import","Επιλέξτε το αρχείο για εισαγωγή"
 "Images File Directory","Κατάλογος Αρχείου Εικόνων"
@@ -5369,6 +5499,7 @@ Import/Export,Εισαγωγή/Εξαγωγή
 "Data validation failed. Please fix the following errors and upload the file again.","Απέτυχε η επικύρωση δεδομένων. Παρακαλώ διορθώστε τα παρακάτω σφάλματα και να αποστείλετε το αρχείο ξανά."
 "Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Ελέχθηκαν σειρές: %1, ελέχθηκαν οντότητες: %2, σειρές μη έγκυρες: %3, σύνολο σφαλμάτων: %4"
 "This file is empty. Please try another one.","Αυτό το αρχείο είναι κενό. Παρακαλώ δοκιμάστε ένα άλλο."
+"Please fix errors and re-upload file or simply press ""Import"" button to skip rows with errors","Διορθώστε τα σφάλματα και ανεβάστε ξανά το αρχείο ή απλά πατήστε το κουμπί ""Εισαγωγή"" για να παραλείψετε τις σειρές με σφάλματα"
 "File is valid! To start import process press ""Import"" button","Το αρχείο είναι έγκυρο! Για να ξεκινήσετε τη διαδικασία εισαγωγής πατήστε κουμπί ""Εισαγωγή"""
 "The file is valid, but we can't import it for some reason.","Το αρχείο είναι έγκυρο, αλλά δεν μπορούμε να το εισάγουμε για κάποιο λόγο."
 "Show more","Προβολή περισσότερων"
@@ -5439,7 +5570,24 @@ User,Χρήστης
 "in rows:","στις σειρές:"
 "Data validation is failed. Please fix errors and re-upload the file.","Απέτυχε η επικύρωση δεδομένων. Παρακαλούμε διορθώστε τα σφάλματα και ξανά-ανεβάστε το αρχείο."
 "in rows","στις σειρές"
+"'Error in CSV: ' .","Σφάλμα στο CSV: '."
+"File must be saved in UTF-8 encoding for proper import","Το αρχείο πρέπει να αποθηκευτεί στην κωδικοποίηση UTF-8 για σωστή εισαγωγή"
+"There is no file: %file","Δεν υπάρχει αρχείο: %file"
+"Empty attribute value constant","Κενή σταθερά τιμή χαρακτηριστικού"
+"Incorrect entity name.","Εσφαλμένο όνομα οντότητας."
 "-- Not Selected --","-- Μη Επιλεγμένη --"
+"Validation Strategy","Στρατηγική Επικύρωσης"
+"Message is added to queue, wait to get your file soon","Το μήνυμα προστέθηκε στην ουρά. περιμένετε γα να πάρετε το αρχείο σας σύντομα"
+"Please provide export file name","Καταχωρίστε το όνομα του αρχείου εξαγωγής"
+"There are no export file with such name %1","Δεν υπάρχει αρχείο εξαγωγής με αυτό το όνομα %1"
+"Your export file is ready","Το αρχείο εξαγωγής είναι έτοιμο"
+"You can pick up your file at export main page","Μπορείτε να πάρετε το αρχείο σας στην κύρια σελίδα εξαγωγής"
+"Error during export process occurred","Παρουσιάστηκε σφάλμα κατά τη διαδικασία εξαγωγής"
+"Error during export process occurred. Please check logs for detail","Παρουσιάστηκε σφάλμα κατά τη διαδικασία εξαγωγής. Ελέγξτε τα αρχεία καταγραφής για λεπτομέρειες"
+"New product data is added to the existing product data for the existing entries in the database. All fields except sku can be updated.","Νέα δεδομένα προϊόντος προστίθενται στα υπάρχοντα δεδομένα προϊόντων για τις υπάρχουσες καταχωρίσεις στη βάση δεδομένων. Όλα τα πεδία εκτός από το sku μπορούν να ενημερωθούν."
+"The existing product data is replaced with new data. <b>Exercise caution when replacing data because the existing product data will be completely cleared and all references in the system will be lost.</b>","Τα υπάρχοντα δεδομένα του προϊόντος αντικαθίστανται από νέα δεδομένα. <b>Προσέξτε όταν αντικαθιστάτε δεδομένα επειδή τα υπάρχοντα δεδομένα του προϊόντος θα διαγραφούν εντελώς και όλες οι αναφορές στο σύστημα θα χαθούν.</b>"
+"Any entities in the import data that already exist in the database are deleted from the database.","Οποιεσδήποτε οντότητες στα δεδομένα εισαγωγής που υπάρχουν ήδη στη βάση δεδομένων διαγράφονται από τη βάση δεδομένων."
+"Are you sure you wan't to delete a file?","Είστε βέβαιοι ότι θέλετε να διαγράψετε ένα αρχείο;"
 "File name","Όνομα αρχείου"
 "Indexer Management","Διαχείριση ευρετηρίου"
 "Update by Schedule","Ενημέρωση από το χρονοδιάγραμμα"
@@ -5462,9 +5610,22 @@ Processing,Επεξεργασία
 "Change indexer mode","Αλλαγή τρόπου ευρετηρίου"
 Indexer,Ευρετήριο
 Mode,Λειτουργία
+"Payment method is not defined for instance purchase.","Η μέθοδος πληρωμής δεν καθορίστηκε για άμεση αγορά."
+"Shipping address is not defined for instance purchase.","Η διεύθυνση αποστολής δεν καθορίστηκε για άμεση αγορά."
+"Billing address is not defined for instance purchase.","Η διεύθυνση χρέωσης δεν καθορίστηκε για άμεση αγορά."
+"Shipping method is not defined for instance purchase.","Η μέθοδος αποστολής δεν καθορίστηκε για άμεση αγορά."
+"Specified payment method is not available now.","Η καθορισμένη μέθοδος πληρωμής δεν είναι διαθέσιμη τώρα."
+"Specified shipping method is not available.","Η καθορισμένη μέθοδος αποστολής δεν είναι διαθέσιμη."
+"Appropriate shipping method is not available.","Η κατάλληλη μέθοδος αποστολής δεν είναι διαθέσιμη."
 "Cheapest price","Φθηνότερη τιμή"
+"Instant purchase integration not available for token.","Η ενσωμάτωση άμεσης αγοράς δεν είναι διαθέσιμη για το διακριτικό."
+"Instant Purchase","Άμεση Αγορά"
+"Instant Purchase Confirmation","Επιβεβαίωση Άμεσης Αγοράς"
+"Are you sure you want to place order and pay?","Είστε βέβαιοι ότι θέλετε να υποβάλετε τη παραγγελία και να πληρώσετε;"
 "Shipping Method","Μέθοδος Αποστολής"
 "Button Text","Κείμενο Κουμπιού"
+"Payment method with vault and instant purchase support should be enabled.","Θα πρέπει να ενεργοποιηθεί η μέθοδος πληρωμής με χρήση θαλάμου και άμεσης αγοράς."
+"A payment method isn't defined for instance purchase. Verify and try again.","Δεν ορίζεται μέθοδος πληρωμής για άμεση πληρωμή. Επαληθεύστε και δοκιμάστε ξανά."
 Integrations,Ενσωματώσεις
 "Add New Integration","Προσθέστε νέας Ενσωμάτωσης"
 "Save & Activate","Αποθήκευση & Ενεργοποίηση"
@@ -7043,6 +7204,38 @@ Carts,Καλάθια
 "An error occurred while logging process.","Παρουσιάστηκε σφάλμα κατά τη διαδικασία καταγραφής."
 "Release Notification","Ειδοποίηση Έκδοσης"
 "What’s new with Magento 2.2.4","Τι νέο υπάρχει με το Magento 2.2.4"
+"
+                        <p>Magento 2.2.4 provides powerful new tools to help reduce cart abandonment and simplify store operations:</p>
+                        <br />
+                        <div class=""trusted-payments-highlight"">
+                        <h3>Trusted Payment Options</h3>
+                        <p>Online or on the go, your shoppers can easily purchase in a familiar, trusted way with Amazon Pay.</p>
+                        </div>
+                        <div class=""flexible-payments-highlight"">
+                        <h3>Flexible Payment Terms</h3>
+                        <p>Increase sales by providing shoppers with the flexibility to pay now, later, or in installments using Klarna&#8217;s integrated payment option.</p>
+                        </div>
+                        <div class=""tax-automation-highlight"">
+                        <h3>Sales and Use Tax Automation</h3>
+                        <p>Merchants can now automatically perform instant and accurate sales tax calculations on shopping cart items with Vertex Cloud.</p>
+                        </div>
+                        <p>To learn more, see the <a href=""http://devdocs.magento.com/guides/v2.2/release-notes/bk-release-notes.html"" target=""_blank"">Release Notes</a> and the <a href=""http://docs.magento.com/m2/ce/user_guide/getting-started.html"" target=""_blank"">Magento User Guide</a>.</p>
+                        ","
+<p>Το Magento 2.2.4 παρέχει ισχυρά νέα εργαλεία για να μειώσετε την εγκατάλειψη του καλαθιού και να απλοποιήσετε τις λειτουργίες αποθήκευσης:</p>
+                        <br />
+                        <div class=""trusted-payments-highlight"">
+                        <h3>Επιλογές αξιόπιστων πληρωμών</h3>
+                        <p>Συνδεδεμένοι ή εν κινήσει, οι αγοραστές σας μπορούν εύκολα να αγοράσουν με έναν οικείο και αξιόπιστο τρόπο με την Amazon Pay.</p>
+                        </div>
+                        <div class=""flexible-payments-highlight"">
+                        <h3>Ευέλικτοι όροι πληρωμής</h3>
+                        <p>Αυξήστε τις πωλήσεις παρέχοντας στους αγοραστές την ευελιξία να πληρώσουν τώρα, αργότερα ή σε δόσεις χρησιμοποιώντας την ολοκληρωμένη επιλογή πληρωμής του Klarna.</p>
+                        </div>
+                        <div class=""tax-automation-highlight"">
+                        <h3>Αυτόματη φορολογία πωλήσεων και χρήσης</h3>
+                        <p>Οι έμποροι μπορούν τώρα να πραγματοποιούν αυτόματα ακριβείς και ακριβείς υπολογισμούς φόρου επί των πωλήσεων σε είδη καλαθιού αγορών με Cloud Cloud.</p>
+                        </div>
+                        <p>Για να μάθετε περισσότερα, ανατρέξτε στις <a href=""http://devdocs.magento.com/guides/v2.2/release-notes/bk-release-notes.html"" target=""_blank""> Σημειώσεις έκδοσης</a> και τον <a href=""http://docs.magento.com/m2/ce/user_guide/getting-started.html"" target=""_blank"">Οδηγό χρήστη Magento</a>.</p>                        "
 "Trusted Payment Options","Επιλογές Αξιόπιστων Πληρωμών"
 "<p>With <a href=""http://docs.magento.com/m2/ce/user_guide/payment/amazon-pay.html"" target=""_blank"">Amazon Pay</a>, we make it simple for the hundreds of millions of Amazon customers worldwide to easily log in and purchase from your store using information already stored their Amazon account. With easy setup in Magento 2.2.4, Amazon Pay provides your customers with a trusted and familiar checkout experience. In just a few taps, they can complete a transaction without ever leaving your site.</p>
                         <ul>
@@ -7078,9 +7271,141 @@ Carts,Καλάθια
                         <li><span>Γρήγορη και εύκολη εγκατάσταση, απευθείας από το διαχειριστή Magento.</span></li>
                         </ul>                        "
 "Sales and Use Tax Automation","Αυτοματοποίηση Πωλήσεων και Χρήσης Φορολογίας"
+"
+                        <p><a href=""http://docs.magento.com/m2/ce/user_guide/tax/vertex.html"" target=""_blank"">Vertex Cloud</a> combines sophisticated software with an exceptional team of tax experts to help Magento merchants simplify the sales tax process, and comply with ever-changing tax laws. Merchants can easily access and configure Vertex Cloud from the Magento Admin to meet complex tax challenges.</p>
+                        <ul>
+                        <li><span>Seamless integration with award-winning support for simple-to-complex tax needs.</span></li>
+                        <li><span>Automatically comply with the latest tax rules for each product and every jurisdiction.</span></li>
+                        <li><span>Perform tax calculations and generate signature-ready PDF returns in one solution.</span></li>
+                        <li><span>No penalty to merchants for tax estimates from abandoned carts.</span></li>
+                        <li><span>Flexible deployment options fit the needs of your organization in the cloud, or on premises.</span></li>
+                        </ul>
+                        ","
+<p><a href=""http://docs.magento.com/m2/ce/user_guide/tax/vertex.html"" target=""_blank"">Το Vertex Cloud</a> συνδυάζει εξελιγμένο λογισμικό με μια εξαιρετική ομάδα φοροτεχνικοί για να βοηθήσουν τους εμπόρους Magento να απλοποιήσουν τη διαδικασία φορολόγησης των πωλήσεων και να συμμορφωθούν με τους συνεχώς μεταβαλλόμενους φορολογικούς νόμους. Οι έμποροι μπορούν εύκολα να έχουν πρόσβαση και να διαμορφώσουν το Vertex Cloud από το Magento Admin για να αντιμετωπίσουν πολύπλοκες φορολογικές προκλήσεις.</p>
+                        <ul>
+                        <li><span>Ολοκλήρωση της ενοποίησης με βραβευμένη υποστήριξη για απλές και σύνθετες φορολογικές ανάγκες.</span></li>
+                        <li><span>Αυτόματη συμμόρφωση με τους πιο πρόσφατους φορολογικούς κανόνες για κάθε προϊόν και κάθε δικαιοδοσία.</span></li>
+                        <li><span>Πραγματοποιήστε υπολογισμούς φόρου και δημιουργήστε επιστροφές PDF με δυνατότητα υπογραφής σε μια λύση.</span></li>
+                        <li><span>Δεν υπάρχει ποινή στους εμπόρους για φορολογικές εκτιμήσεις από εγκαταλελειμμένα καροτσάκια.</span></li>
+                        <li><span>Οι ευέλικτες επιλογές ανάπτυξης ταιριάζουν στις ανάγκες του οργανισμού σας στο σύννεφο ή στις εγκαταστάσεις.</span></li>
+                        </ul>                        "
 "What's new with Magento 2.2.2","Τι νέο υπάρχει με το Magento 2.2.2"
+"
+                        <p>Magento 2.2.2 offers advanced new features, including:</p>
+                        <br />
+                        <div class=""analytics-highlight"">
+                        <h3>Advanced Reporting</h3>
+                        <p>Gain valuable insights through a dynamic suite of product, order, and customer reports,
+                        powered by Magento Business Intelligence.</p>
+                        </div>
+                        <div class=""instant-purchase-highlight"">
+                        <h3>Instant Purchase</h3>
+                        <p>Simplify ordering and boost conversion rates by allowing your customers to use stored
+                        payment and shipping information to skip tedious checkout steps.</p>
+                        </div>
+                        <div class=""email-marketing-highlight"">
+                        <h3>Email Marketing Automation</h3>
+                        <p>Send smarter, faster email campaigns with marketing automation from dotmailer, powered by
+                        your Magento store's live data.</p>
+                        </div>
+                        <p>Release notes and additional details can be found at
+                        <a href=""http://devdocs.magento.com/"" target=""_blank"">Magento DevDocs</a>.
+                        </p>
+                        ","
+<p>Το Magento 2.2.2 προσφέρει προηγμένες νέες λειτουργίες, όπως:</p>
+                        <br />
+                        <div class=""analytics-highlight"">
+                        <h3>Σύνθετες αναφορές</h3>
+                        <p>Αποκτήστε πολύτιμες γνώσεις μέσω μιας δυναμικής σουίτας αναφορών προϊόντων, παραγγελιών και πελατών,
+                        powered by Magento Business Intelligence.</p>
+                        </div>
+                        <div class=""instant-purchase-highlight"">
+                        <h3>Άμεση αγορά</h3>
+                        <p>Απλοποιήστε την παραγγελία και αυξήστε τα ποσοστά μετατροπής επιτρέποντας στους πελάτες σας να χρησιμοποιούν αποθηκευμένα
+                        πληροφορίες πληρωμής και αποστολής για να παραλείψετε τα κουραστικά βήματα πληρωμής.</p>
+                        </div>
+                        <div class=""email-marketing-highlight"">
+                        <h3>Αυτοματοποίηση μάρκετινγκ ηλεκτρονικού ταχυδρομείου</h3>
+                        <p>Στείλτε πιο έξυπνες και ταχύτερες καμπάνιες ηλεκτρονικού ταχυδρομείου με αυτοματοποίηση μάρκετινγκ από το dotmailer, το οποίο τροφοδοτείται από
+                        τα ζωντανά δεδομένα του καταστήματος Magento.</p>
+                        </div>
+                        <p>Οι σημειώσεις έκδοσης και οι πρόσθετες λεπτομέρειες μπορούν να βρεθούν στο
+                        <a href=""http://devdocs.magento.com/"" target=""_blank"">Magento DevDocs</a>.
+                        </p>                        "
+"<p>Advanced Reporting
+                        provides you with a dynamic suite of reports with rich insights about the health of your
+                        business.</p><br /><p>As part of the Advanced Reporting service, we may also use your customer
+                        data for such purposes as benchmarking, improving our products and services, and providing you
+                        with new and improved analytics.</p><br /><p>By using Magento 2.2.2, you agree to the Advanced
+                        Reporting <a href=""https://magento.com/legal/terms/privacy"" target=""_blank"">Privacy Policy</a>
+                        and <a href=""https://magento.com/legal/terms/cloud-terms"" target=""_blank"">Terms
+                        of Service</a>. You may opt out at any time from the Stores Configuration page.</p>
+                        ","<p>Η Σύνθετη αναφορά
+                         σας παρέχει μια δυναμική σειρά αναφορών με πλούσιες γνώσεις σχετικά με την υγεία της επιχείρησής σας
+                         </p><br /><p>Στο πλαίσιο της υπηρεσίας Advanced Reporting, μπορούμε επίσης να χρησιμοποιήσουμε τον πελάτη σας
+                         δεδομένα για σκοπούς όπως η συγκριτική αξιολόγηση, η βελτίωση των προϊόντων και υπηρεσιών μας και η παροχή σας
+                         με νέες και βελτιωμένες αναλύσεις.</p><br /><p>Με τη χρήση του Magento 2.2.2, συμφωνείτε με τους Προχωρημένους
+                         Αναφορά <a href=""https://magento.com/legal/terms/privacy"" target=""_blank"">Πολιτικής Απορρήτου</a>
+                         και <a href=""https://magento.com/legal/terms/cloud-terms"" target=""_blank"">Όροι
+                         της υπηρεσίας</a>. Μπορείτε να εξαιρεθείτε ανά πάσα στιγμή από τη σελίδα Configuration Stores.</p>                        "
 "Instant Purchase","Άμεση αγορά"
+"
+                        <p>Now you can deliver an Amazon-like experience with a new, streamlined checkout option.
+                        Logged-in customers can use previously-stored payment credentials and shipping information
+                        to skip steps, making the process faster and easier, especially for mobile shoppers. Key
+                        features include:
+                        </p>
+                        <ul>
+                        <li><span>Configurable “Instant Purchase” button to place orders.</span></li>
+                        <li><span>Support for all payment solutions using Braintree Vault, including Braintree Credit
+                        Card, Braintree PayPal, and PayPal Payflow Pro.</span></li>
+                        <li><span>Shipping to the customer’s default address using the lowest cost, available shipping
+                        method.</span></li>
+                        <li><span>Ability for developers to customize the Instant Purchase business logic to meet
+                        merchant needs.</span></li>
+                        </ul>
+                        ","
+<p>Τώρα μπορείτε να απολαύσετε μια εμπειρία Amazon με μια νέα, βελτιωμένη επιλογή checkout.
+                        Οι συνδεδεμένοι πελάτες μπορούν να χρησιμοποιούν διαπιστευτήρια πληρωμής που έχουν αποθηκευτεί στο παρελθόν και πληροφορίες αποστολής
+                        να παρακάμψουν τα βήματα, καθιστώντας τη διαδικασία πιο γρήγορη και ευκολότερη, ειδικά για τους αγοραστές από κινητές συσκευές. Κλειδί
+                        χαρακτηριστικά περιλαμβάνουν:
+                        </p>
+                        <ul>
+                        <li><span>Διαμορφώσιμο κουμπί ""Άμεση αγορά"" για την τοποθέτηση παραγγελιών.</span></li>
+                        <li><span>Υποστήριξη για όλες τις λύσεις πληρωμής που χρησιμοποιούν τη Braintree Vault, συμπεριλαμβανομένης της πίστωσης Braintree
+                        Κάρτα, Braintree PayPal και PayPal Payflow Pro.</span></li>
+                        <li><span>Αποστολή στην προεπιλεγμένη διεύθυνση του πελάτη χρησιμοποιώντας το χαμηλότερο κόστος, διαθέσιμη αποστολή
+                        </span></li>
+                        <li><span>Ικανότητα για προγραμματιστές να προσαρμόσουν την επιχειρησιακή λογική της Άμεσης Αγοράς
+                        εμπορικές ανάγκες.</span></li>
+                        </ul>                        "
 "Email Marketing Automation","Αυτοματοποίηση Μάρκετινγκ Email"
+"
+                        <p>Unlock an unparalleled level of insight and control of your eCommerce marketing with
+                        dotmailer Email Marketing Automation. Included with Magento 2.2.2 for easy set-up, dotmailer
+                        ensures every customer’s journey is captured, segmented, and personalized, enabling you to
+                        deliver customer-centric campaigns that beat your results over and over again. Benefits include:
+                        </p>
+                        <ul>
+                        <li><span>No obligation 14-day trial.</span></li>
+                        <li><span>Automation campaigns using your live Magento store data that drive revenue,
+                        including abandoned cart, abandoned browse, product replenishment, and many more.</span></li>
+                        <li><span>Built-in solution for transactional emails.</span></li>
+                        <li><span>Telephone support and advice from marketing experts included.</span></li>
+                        </ul>
+                        ","
+<p>Ξεκλειδώστε ένα ασύγκριτο επίπεδο γνώσης και ελέγχου με το μάρκετινγκ ηλεκτρονικού εμπορίου σας
+                        dotmailer Email Marketing Αυτοματισμού. Περιλαμβάνεται με το Magento 2.2.2 για εύκολη ρύθμιση, dotmailer
+                        εξασφαλίζει ότι το ταξίδι του κάθε πελάτη είναι καταγεγραμμένο, κατακερματισμένο και εξατομικευμένο, επιτρέποντάς σας να το κάνετε
+                        παραδώστε πελατοκεντρικές καμπάνιες που σας χτυπούν ξανά και ξανά. Τα οφέλη περιλαμβάνουν:
+                        </p>
+                        <ul>
+                        <li><span>Δεν υπάρχει υποχρέωση δοκιμής 14 ημερών.</span></li>
+                        <li><span>Οι καμπάνιες αυτοματισμού που χρησιμοποιούν τα ζωντανά δεδομένα καταστημάτων Magento που οδηγούν τα έσοδα,
+                        συμπεριλαμβανομένων εγκαταλελειμμένων καλαθιού, εγκαταλελειμμένης περιήγησης, ανανέωσης προϊόντος και πολλά άλλα.</span></li>
+                        <li><span>Ενσωματωμένη λύση για ηλεκτρονικά μηνύματα συναλλαγών</span></li>
+                        <li><span>Η τηλεφωνική υποστήριξη και συμβουλές από τους ειδικούς μάρκετινγκ συμπεριλαμβάνονται.</span></li>
+                        </ul>                        "
 "Sorry, we had a problem loading our “What’s new” content.","Λυπούμαστε, αντιμετωπίσαμε πρόβλημα φόρτωσης του περιεχομένου ""Τι νέο υπάρχει""."
 "
                         <p>We’ll try to show it again the next time you sign in to Magento Admin.</p>
@@ -8150,6 +8475,7 @@ Unassign,"Κατάργηση αντιστοίχισης"
 "Path ""%1"" is not part of allowed directory ""%2""","Διαδρομή ""%1"" δεν αποτελεί μέρος του επιτρεπόμενου καταλόγου ""%2"""
 "Identifying Fields required","Προσδιορίζοντας τα πεδία που απαιτούνται"
 "Id required","Id απαιτείται"
+"""Invoice Document Validation Error(s):\n"" .","""Σφάλμα(τα) Εγγράφου Επικύρωσης Τιμολογίου:\n"" ."
 "A hold action is not available.","Μια ενέργεια αναμονής δεν είναι διαθέσιμη."
 "You cannot remove the hold.","Δεν μπορείτε να καταργήσετε την αναμονή."
 "Please enter the company.","Παρακαλώ εισάγετε τη εταιρεία."
@@ -8158,6 +8484,7 @@ Unassign,"Κατάργηση αντιστοίχισης"
 "Could not save order address","Δεν ήταν δυνατή η αποθήκευση διεύθυνσης παραγγελίας"
 "Unknown State","Άγνωστη Κατάσταση"
 "Could not delete the comment.","Δεν ήταν δυνατή η διαγραφή του σχολίου."
+"Could not save the creditmemo comment.","Δεν ήταν δυνατή η αποθήκευση του σχολίου πιστωτικού υπομνήματος."
 "We found an invalid quantity to refund item ""%1"".","Βρήκαμε μία μη έγκυρη ποσότητα για επιστροφή ""%1""."
 "Could not delete the credit memo item.","Δεν ήταν δυνατή η διαγραφή του στοιχείου πιστωτικού υπομνήματος."
 "Could not save the credit memo item.","Δεν ήταν δυνατή η αποθήκευση του στοιχείου πιστωτικού υπομνήματος."
@@ -8833,47 +9160,109 @@ Exception.,Εξαίρεση.
 "Catalog Structure","Δομή Καταλόγου"
 "Catalog Id","Id Κατάλογου"
 "Store Id","Id Καταστήματος"
+"This action cannot be undone. Are you sure you want to delete this catalog?","Αυτή η ενέργεια δε μπορεί να αναιρεθεί. Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον κατάλογο;"
 "Linked Products","Συνδεδεμένα Προϊόντα"
 Pricing,Τιμολόγηση
 "Shared Catalogs","Κατάλογοι Κοινής Χρήσης"
+"The companies have been reassigned.","Οι εταιρείες έχουν ανατεθεί εκ νέου."
+"Error while reassigning the company.","Σφάλμα κατά την επανεκχώρηση της εταιρείας."
+"Discount value cannot be outside the range 0-100","Η τιμή έκπτωσης δεν μπορεί να βρίσκεται εκτός του εύρους 0-100"
 "We found a duplicate website, tier price or quantity.","Βρήκαμε μια διπλότυπη τοποθεσία Web, τιμή βαθμίδας ή ποσότητα."
+"The selected items are being processed. You can continue to work in the meantime.","Τα επιλεγμένα στοιχεία υπόκεινται σε επεξεργασία. Μπορείτε να συνεχίσετε να εργάζεστε εν τω μεταξύ."
+"The selected changes have been applied to the shared catalog.","Οι επιλεγμένες αλλαγές έχουν εφαρμοστεί στον κοινόχρηστο κατάλογο."
 "New Shared Catalog","Νέος Κατάλογος Κοινής Χρήσης"
+"The shared catalog was deleted successfully.","Ο κοινόχρηστος κατάλογος διαγράφηκε με επιτυχία."
 "Duplicate of %1","Αντίγραφο του %1"
+"You saved the shared catalog.","Αποθηκεύσατε το κατάλογο κοινής χρήσης."
+"Something went wrong while saving the shared catalog.","Κάτι πήγε στραβά κατά την αποθήκευση του κοινόχρηστου καταλόγου."
+"No shared catalog name is specified in request.","Δεν υπάρχει όνομα κοινόχρηστου καταλόγου στην αίτηση."
+"Requested categories don't exist: %categoriesIds.","Οι κατηγορίες που ζητήσατε δεν υπάρχουν: %categoriesIds."
+"You cannot unassign a company from the public shared catalog.","Δεν μπορείτε να καταργήσετε την ανάθεση μιας εταιρείας από τον δημόσιο κοινόχρηστο κατάλογο."
+"Could not set default customer group","Δεν ήταν δυνατή η ρύθμιση της προεπιλεγμένης ομάδας πελατών"
+"A customer group with this name already exists. Enter a different name to create a shared catalog.","Μια ομάδα πελατών με αυτό το όνομα υπάρχει ήδη. Καταχωρίστε ένα διαφορετικό όνομα για να δημιουργήσετε έναν κοινόχρηστο κατάλογο."
+"Could not save customer group.","Δεν ήταν δυνατή η αποθήκευση της ομάδας πελατών."
+"Could not update shared catalog customer group","Δεν ήταν δυνατή η ενημέρωση ομάδας πελατών κοινόχρηστου καταλόγου"
+"Cannot load product items for shared catalog","Δεν είναι δυνατή η φόρτωση αντικειμένων προϊόντων για κοινόχρηστο κατάλογο"
+"Could not save ProductItem","Αδύνατη η αποθήκευση του Στοιχείου Προϊόντος"
 "Cannot delete product with id %1","Δεν είναι δυνατό να διαγράψετε το προϊόν με id %1"
 "Cannot delete shared catalog with id %1","Δεν είναι δυνατό να διαγράψετε το κατάλογο κοινής χρήσης με id %1"
+"Assign Categories to Shared Catalog","Αναθέστε Κατηγορίες στον Κοινόχρηστο Κατάλογο"
+"Something went wrong while scheduling operations.","Κάτι πήγε στραβά κατά τις λειτουργίες χρονοδιαγράμματος."
+"Assign custom prices to selected products","Ανάθεση προσαρμοσμένων τιμών σε επιλεγμένα προϊόντα"
+"Could not save shared catalog.","Δεν ήταν δυνατή η αποθήκευση του κοινόχρηστου καταλόγου."
+"You must enable category permissions for the following products: %skus.","Πρέπει να ενεργοποιήσετε τα δικαιώματα κατηγορίας για τα παρακάτω προϊόντα: %skus."
 "Requested product doesn't exist: %sku.","Το ζητούμενο προϊόν δεν υπάρχει: %sku."
 "No such shared catalog entity","Καμία τέτοια οντότητα καταλόγου κοινής χρήσης"
+"You cannot convert a public catalog to a custom catalog. If you need to replace this public catalog, create a custom catalog, then change its type to public.","Δεν μπορείτε να μετατρέψετε έναν δημόσιο κατάλογο σε έναν προσαρμοσμένο κατάλογο. Αν πρέπει να αντικαταστήσετε αυτόν τον δημόσιο κατάλογο, δημιουργήστε έναν προσαρμοσμένο κατάλογο και στη συνέχεια, αλλάξτε τον τύπο του σε δημόσιο."
+"Requested Shared Catalog is not found","Ο ζητούμενος Κοινόχρηστος Κατάλογος δεν βρέθηκε"
+"Catalog (id:%1) cannot be deleted because it is a public catalog. You must create a new public catalog before you can delete this catalog.","Ο κατάλογος (id:%1) δεν μπορεί να διαγραφεί επειδή είναι ένας δημόσιος κατάλογος. Πρέπει να δημιουργήσετε έναν νέο δημόσιο κατάλογο για να διαγράψετε αυτόν τον κατάλογο."
+"Cannot create a shared catalog because some information is missing. Please make sure you provided Store Group ID, Name and Tax Class.","Δεν είναι δυνατή η δημιουργία κοινόχρηστου καταλόγου επειδή λείπουν ορισμένες πληροφορίες. Βεβαιωθείτε ότι έχετε παράσχει το ID Ομάδας Καταστήματος, το Όνομα και τη Φορολογική Κλάση."
+"The maximum allowed catalog name length is %1 characters.","Το μέγιστο επιτρεπόμενο μήκος ονόματος καταλόγου είναι %1 χαρακτήρες."
+"A catalog named %catalogName already exists. Please select a different name.","Ένας κατάλογος με όνομα %catalogName υπάρχει ήδη. Επιλέξτε ένα διαφορετικό όνομα."
+"You cannot change the customer group for a shared catalog.","Δεν μπορείτε να αλλάξετε την ομάδα πελατών για έναν κοινόχρηστο κατάλογο."
+"Please <a href=""%1"">create</a> at least a public shared catalog to proceed.","<a href=""%1"">Δημιουργήστε</a> τουλάχιστον έναν δημόσιο κοινόχρηστο κατάλογο για να συνεχίσετε."
+"A shared catalog is linked to this customer group. You must delete the shared catalog before you can delete this customer group.","Ένας κοινόχρηστος κατάλογος συνδέεται με αυτή την ομάδα πελατών. Πρέπει να διαγράψετε τον κοινόχρηστο κατάλογο, για να μπορέσετε να διαγράψετε αυτήν την ομάδα πελατών."
 "Requested product doesn't exist: %1.","Το ζητούμενο προϊόν δεν υπάρχει: %1."
 "Website 3","Ιστότοπος 3"
 "Website 1","Ιστότοπος 1"
+"Set Pricing and Structure","Ορίστε Τιμολόγηση και Δομή"
 "Assign Companies","Ανάθεση Εταιριών"
 "Delete ""${ $.$data.name }""","Διαγραφή του ""${ $.$data.name }"""
+"Catalog and Tier Price","Κατάλογος και Κλιμακωτή Τιμή"
 "Group or Catalog","Ομάδα ή Κατάλογος"
+"You must enable the <a href=""%1"" data-role=""notification-dialog"">shared catalog</a> feature in 
+        Stores -> Configuration -> B2B Features to use the shared catalogs in the storefront.
+        Otherwise, the categories and products you're configuring in shared catalogs will 
+        not be restricted to customers.","Πρέπει να ενεργοποιήσετε τη λειτουργία <a href=""%1"" data-role=""notification-dialog"">κοινόχρηστος κατάλογος</a> στη διεύθυνση
+         Καταστήματα -> Διαμόρφωση -> Επιλογές B2B για τη χρήση των κοινόχρηστων καταλόγων στην βιτρίνα καταστήματος.
+         Διαφορετικά, οι κατηγορίες και τα προϊόντα που ρυθμίζετε σε κοινόχρηστους καταλόγους δεν θα 
+         περιορίζονται στους πελάτες."
+"You must enable the shared catalog feature in Stores -> Configuration -> B2B Features 
+    to use the shared catalogs in the storefront. Otherwise, the categories and products you're 
+    configuring in shared catalogs will not be restricted to customers.","Πρέπει να ενεργοποιήσετε τη λειτουργία κοινόχρηστος κατάλογος στη διεύθυνση  Καταστήματα -> Διαμόρφωση -> Επιλογές B2B για τη χρήση των κοινόχρηστων καταλόγων στην βιτρίνα καταστήματος.
+         Διαφορετικά, οι κατηγορίες και τα προϊόντα που ρυθμίζετε σε κοινόχρηστους καταλόγους δεν θα 
+         περιορίζονται στους πελάτες."
 "Products in Catalog","Προϊόντα σε Κατάλογο"
+"Continue to configure the shared catalog structure and pricing.","Συνεχίστε να διαμορφώνετε τη δομή και την τιμολόγηση του κοινόχρηστου καταλόγου."
 Store:,Κατάστημα:
 "Step 2: Set Custom Prices","Βήμα 2: Ορισμός Προσαρμοσμένων Τιμών"
 "Step 1: Select Products for Catalog","Βήμα 1: Επιλέξτε Προϊόντα για τον Κατάλογο"
 Website:,Ιστότοπος:
 Assign,Αντιστοίχιση
 "Proceed to Store Configuration?","Συνέχεια σε Διαμόρφωση Καταστήματος;"
+"You've made changes into the shared catalog. If you leave this page now, the changes will be lost.","Έχετε πραγματοποιήσει αλλαγές στον κοινόχρηστο κατάλογο. Εάν αφήσετε αυτήν τη σελίδα τώρα, οι αλλαγές θα χαθούν."
+"The maximum allowed catalog name length is {0} characters.","Το μέγιστο επιτρεπόμενο μήκος ονόματος καταλόγου είναι {0} χαρακτήρες."
+"Conflicting row.","Αντικρουόμενη σειρά."
 "Generate Catalog","Δημιουργία Καταλόγου"
 products,προϊόντα
 included,περιλαμβάνεται
 "Shared Catalog","Κατάλογος Κοινής Χρήσης"
 "Manage Shared Catalog","Διαχείριση Καταλόγου Κοινής Χρήσης"
 "Enable Shared Catalog","Ενεργοποίηση Καταλόγου Κοινής Χρήσης"
+"To select No, please <a href=""%1"">create</a> the Public Catalog first.","Για να επιλέξετε Όχι, <a href=""%1"">δημιουργήστε</a> πρώτα τον Δημόσιο Κατάλογο."
+"Use this field to change company's shared catalog","Χρησιμοποιήστε αυτό το πεδίο για να αλλάξετε τον κοινόχρηστο κατάλογο της εταιρείας"
 "Group/Shared Catalog","Κατάλογος Ομάδας/Κοινής Χρήσης"
 "Product In Shared Catalogs","Προϊόν σε Καταλόγους Κοινής Χρήσης"
 "Change Catalog?","Αλλαγή Καταλόγου;"
+"The selected companies are already using a different shared catalog. This action will change a shared catalog for selected companies. Would you like to continue?","Οι επιλεγμένες εταιρείες χρησιμοποιούν ήδη έναν διαφορετικό κοινόχρηστο κατάλογο. Αυτή η ενέργεια θα αλλάξει έναν κοινόχρηστο κατάλογο για επιλεγμένες εταιρείες. Θέλετε να συνεχίσετε;"
+"The selected companies will be unlinked from the current shared catalog and linked to the default public catalog. Would you like to continue?","Οι επιλεγμένες εταιρείες θα αποσυνδεθούν από τον τρέχοντα κοινόχρηστο κατάλογο και θα συνδεθούν με τον προεπιλεγμένο δημόσιο κατάλογο. Θέλετε να συνεχίσετε;"
 "Assign Catalog","Συσχέτιση Καταλόγου"
 "Unassign Catalog","Αποσυσχέτιση Καταλόγου"
 Assigned,Ανατεθειμένο
 "Shared Catalog Information","Πληροφορίες Καταλόγου Κοινής Χρήσης"
 "Catalog Details","Λεπτομέρειες Καταλόγου"
+"Public Catalog Already Exists","Ο Δημόσιος Κατάλογος Υπάρχει Ήδη"
+"A public shared catalog already exists. If you proceed, the existing public shared catalog will be converted to a custom catalog. All the companies defined in the existing public shared catalog will be assigned to the new public shared catalog.","Υπάρχει ήδη δημόσιος κοινόχρηστος κατάλογος. Αν συνεχίσετε, ο υπάρχων κοινόχρηστος κατάλογος θα μετατραπεί σε έναν προσαρμοσμένο κατάλογο. Όλες οι εταιρείες που ορίζονται στον υπάρχον δημόσιο κοινόχρηστο κατάλογο θα ανατεθούν στον νέο δημόσιο κοινόχρηστο κατάλογο."
 "Change Catalog Type?","Αλλαγή Τύπου Καταλόγου;"
+"A public shared catalog already exists. If you proceed, the existing public shared catalog will be converted to a custom catalog. All the companies defined in the existing public shared catalog will be re-assigned to the new public shared catalog.","Υπάρχει ήδη δημόσιος κοινόχρηστος κατάλογος. Αν συνεχίσετε, ο υπάρχων κοινόχρηστος κατάλογος θα μετατραπεί σε έναν προσαρμοσμένο κατάλογο. Όλες οι εταιρείες που ορίζονται στον υπάρχον δημόσιο κοινόχρηστο κατάλογο θα ανατεθούν εκ νέου στον νέο δημόσιο κοινόχρηστο κατάλογο."
 "Add Shared Catalog","Προσθήκη Καταλόγου Κοινής Χρήσης"
+"This action cannot be undone. Are you sure you want to delete this catalog(s)?","Αυτή η ενέργεια δε μπορεί να αναιρεθεί. Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτούς τους καταλόγους;"
+"This discount will be applied to all selected products. The custom price type will be set to 'Discount'.","Αυτή η έκπτωση θα εφαρμοστεί σε όλα τα επιλεγμένα προϊόντα. Ο προσαρμοσμένος τύπος τιμής θα οριστεί σε 'Έκπτωση'."
 "Set Discount","Καθορισμός Έκπτωσης"
+"This discount will be applied to all selected products. The custom price type will be set to 'Fixed'.","Αυτή η έκπτωση θα εφαρμοστεί σε όλα τα επιλεγμένα προϊόντα. Ο προσαρμοσμένος τύπος τιμής θα οριστεί σε 'Σταθερή'."
+"Adjust Fixed Price","Προσαρμογή Σταθερής Τιμής"
 "New Price","Νέα Τιμή"
+"To select No, please <a href=""%s"">create</a> the Public Catalog first.","Για να επιλέξετε Όχι, <a href=""%s"">δημιουργήστε</a> πρώτα τον Δημόσιο Κατάλογο."
 "New Shipment for Order #%1","Νέα Αποστολή για την Παραγγελία #%1"
 "Submit Shipment","Υποβολή Αποστολής"
 "You are trying to add a quantity for some products that doesn't match the quantity that was shipped.","Προσπαθείτε να προσθέσετε μια ποσότητα για ορισμένα προϊόντα που δεν ταιριάζει με την ποσότητα που διατίθεται στην αγορά."
