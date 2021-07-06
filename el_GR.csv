@@ -620,6 +620,7 @@ System,Σύστημα
 "Before modifying the store view code please make sure it is not used in index.php.","Πριν να τροποποιήσετε τον κώδικα της προβολής καταστήματος παρακαλώ βεβαιωθείτε ότι δεν χρησιμοποιείται στο index.php."
 "New ","Νέο "
 "All Stores","Όλα τα καταστήματα"
+"Please enable your Store View before using this Web Site as Default","Παρακαλώ ενεργοποιήστε την Προβολή Καταστήματος πριν χρησιμοποιήσετε αυτήν την Ιστοσελίδα ως Προεπιλογή"
 "You saved the website.","Αποθηκεύσατε την ιστοσελίδα."
 "The default store cannot be disabled","Το προεπιλεγμένο κατάστημα δεν μπορεί να απενεργοποιηθεί"
 "You saved the store view.","Αποθηκεύσατε την προβολή καταστήματος."
@@ -1020,6 +1021,7 @@ Position,Θέσης
 "Please enter a name.","Παρακαλώ εισάγετε ένα όνομα."
 "Make sure that dynamic blocks rotator does not reference the dynamic block itself.","Βεβαιωθείτε ότι το περιστροφέας δυναμικού τμήματος δεν παραπέμπει στο ίδιο το δυναμικό τμήμα."
 "-- None --",--Κανένα--
+"Invalid content","Μη έγκυρο περιεχόμενο"
 "Content Area","Περιοχή Περιεχομένου"
 Footer,Υποσέλιδο
 Header,Κεφαλίδα
@@ -1597,6 +1599,7 @@ Categories,Kατηγορίες
 "You saved the product.","Αποθηκεύσατε το προϊόν."
 "SKU for product %1 has been changed to %2.","SKU για το προϊόν %1 έχει αλλάξει σε %2."
 "The image cannot be removed as it has been assigned to the other image role","Η εικόνα δεν μπορεί να αφαιρεθεί καθώς έχει ανατεθεί σε ένα άλλο ρόλο εικόνας"
+"The value of attribute(s) ""%1"" must be unique","Η τιμή των ιδιοτήτων ""%1"" πρέπει να είναι μοναδική"
 "New Attribute Set","Νέο Σύνολο Χαρακτηριστικού"
 "The attribute set has been removed.","Έχει αφαιρεθεί το Σύνολο Χαρακτηριστικών."
 "We can't delete this set right now.","Αδύνατη η διαγραφή του συνόλου αυτή τη στιγμή."
@@ -2238,9 +2241,11 @@ End,Τέλος
 "Unable to remove Stock with id ""%1""","Δεν είναι δυνατή η αφαίρεση Αποθέματος με id ""%1"""
 "Unable to remove Stock Status for product %1","Δεν είναι δυνατή η αφαίρεση κατάστασης αποθέματος για το προϊόν %1"
 "Not all of your products are available in the requested quantity.","Δεν είναι όλα τα προϊόντα σας διαθέσιμα στην ζητούμενη ποσότητα."
+"The Product with the ""%1"" SKU doesn't exist.","Το προϊόν με SKU ""%1"" δεν υπάρχει."
 "The fewest you may purchase is %1.","O μικρότεροw αριθμόw που μπορείτε να αγοράσετε είναι %1."
 "Please correct the quantity for some products.","Παρακαλώ διορθώστε την ποσότητα για ορισμένα προϊόντα."
 "The most you may purchase is %1.","Το περισσότερο που μπορείτε να αγοράσετε είναι %1."
+"The requested qty is not available","Η απαιτούμενη ποσότητα δεν είναι διαθέσιμη"
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Δεν έχουμε όσα ""%1"" ζητήσατε, αλλά θα εκτελέσουμε την παραγγελία με το υπόλοιπο %2."
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Δεν έχουμε ""%1"" στη ζητούμενη ποσότητα, οπότε θα εκτελέσουμε την παραγγελία με το υπόλοιπο %2."
 "You can buy %1 only in quantities of %2 at a time.","Μπορείτε να αγοράσετε %1 μόνο σε %2 ποσότητες κάθε φορά."
@@ -2262,6 +2267,7 @@ End,Τέλος
 "Automatically Return Credit Memo Item to Stock","Αυτόματη επιστροφή στοιχείου πιστωτικού υπομνήματος στο απόθεμα"
 Stock,Απόθεμα
 "Index stock","Δείκτης Αποθέματος"
+Done,Ολοκληρώθηκε
 "New Permission","Νέα άδεια"
 "You already have a permission with this scope.","Έχετε ήδη ένα δικαίωμα με αυτό το πεδίο."
 (Allow),"(Να επιτρέπεται)"
