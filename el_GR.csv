@@ -5,6 +5,9 @@ None,Κανένα
 "You need more permissions to apply some of the rule updates.","Χρειάζεστε περισσότερα δικαιώματα να εφαρμόσει κάποιες από τις ενημερωμένες εκδόσεις του κανόνα."
 "More permissions are needed to view this item.","Περισσότερα δικαιώματα είναι απαραίτητα για να προβάλετε αυτό το στοιχείο."
 "This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Η οντότητα αυτή πρέπει να αντιστοιχιστεί σε μια προβολή του καταστήματος. Επαληθεύστε την αντιστοίχιση οντότητας και προσπαθήστε ξανά."
+"This item needs to be assigned to a store view.
+                Please select a website for this product in ""Product in Websites"".","Αυτό το στοιχείο πρέπει να αντιστοιχιστεί σε μια προβολή καταστήματος.
+                Παρακαλώ επιλέξτε μια ιστοσελίδα για αυτό το προϊόν στο ""Προϊόν στις Ιστοσελίδες""."
 "Orders can only be completed in an active store. Verify the store and try again.","Οι παραγγελίες μπορούν να ολοκληρωθούν μόνο σε ένα ενεργό κατάστημα. Επαληθεύστε το κατάστημα και προσπαθήστε ξανά."
 "This item needs to be assigned to a store view. Assign item and try again.","Αυτό το στοιχείο πρέπει να αντιστοιχιστεί σε μια προβολή του καταστήματος. Αντιστοιχίστε το στοιχείο και προσπαθήστε ξανά."
 "More permissions are needed to save this item.","Περισσότερα δικαιώματα είναι απαραίτητα για να αποθηκεύσετε αυτό το στοιχείο."
@@ -714,6 +717,8 @@ selected,επιλεγμένα
 "The information in this tab has been changed.","Οι πληροφορίες σε αυτήν την καρτέλα έχουν αλλάξει."
 Loading...,Φόρτωση...
 "User Agent Rules","Κανόνες Παράγοντα Χρήστη"
+"User agent exceptions override product and CMS pages rules.","Οι εξαιρέσεις User agent αντικαθιστούν τους κανόνες προϊόντων και σελίδων CMS."
+"Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered.","Οι συμβολοσειρές αναζήτησης είναι είτε κανονικές συμβολοσειρές είτε κανονικές εκφράσεις (PCRE). Είναι αντιστοιχισμένες με την ίδια σειρά που έχουν εισαχθεί."
 Examples,Παραδείγματα
 "Use Default Value","Χρήση Προκαθορισμένης Τιμής"
 "We could not detect a size.","Δεν μπορούσαμε να ανιχνεύσουμε ένα μέγεθος."
@@ -761,11 +766,14 @@ Advanced,Προηγμένες
 Developer,Προγραμματιστής
 "Enable Template Path Hints for Storefront","Ενεργοποιήστε Υποδείξεις Διαδρομής Πρότυπου για Βιτρίνα Καταστήματος"
 "Enable Hints for Storefront with URL Parameter","Ενεργοποίηση Υποδείξεων για Βιτρίνα με Παράμετρο URL"
+"Use URL parameter to enable template path hints for Storefront","Χρησιμοποιήστε την παράμετρο URL για να ενεργοποιήσετε τις υποδείξεις διαδρομής προτύπου για Βιτρίνα Καταστήματος"
 "Parameter Value","Τιμή Παραμέτρου"
+"Add the following parameter to the URL to show template hints ?templatehints=[parameter_value]","Πρόσθεσε την ακόλουθη παράμετρο στο URL για να εμφανίσεις τις υποδείξεις του προτύπου ?templatehints=[parameter_value]"
 "Enable Template Path Hints for Admin","Ενεργοποιήστε Υποδείξεις Διαδρομής Πρότυπου για Διαχείριση"
 "Add Block Class Type to Hints","Προσθέστε τον Τύπο Κλάσης Τμήματος σε Υποδείξεις"
 "Template Settings","Παραμέτροι Προτύπου"
 "Allow Symlinks","Επιτρέψτε Symlinks"
+"<strong class=""colorRed"">Warning!</strong> Enabling this feature is not recommended on production environments because it represents a potential security risk.","<strong class=""colorRed"">Προειδοποίηση!</strong> Η ενεργοποίηση αυτής της δυνατότητας δεν συνιστάται σε περιβάλλοντα παραγωγής, επειδή αντιπροσωπεύει δυνητικό κίνδυνο ασφάλειας."
 "Minify Html","Ελάττωση Html"
 "Minification is not applied in developer mode.","Η ελλάτωση δεν εφαρμόζεται σε κατάσταση λειτουργίας προγραμματιστή."
 "Translate Inline","Ενσωματωμένη Μετάφραση"
@@ -817,6 +825,7 @@ Host,Εξυπηρετητής
 "Return-Path Email","Email Διαδρομής επιστροφής"
 "Images Upload Configuration","Ρυθμίσεις Μεταφόρτωση Eικόνων"
 "Enable Frontend Resize","Ενεργοποίηση Αλλαγής Μεγέθους Περιβάλλοντος Χρήστη"
+"Resize performed via javascript before file upload.","Αλλαγή μεγέθους που πραγματοποιήθηκε μέσω javascript πριν από τη μεταφόρτωση αρχείου."
 "Maximum Width","Μέγιστο Πλάτος"
 "Maximum allowed width for uploaded image.","Μέγιστο επιτρεπόμενο πλάτος για μεταφορτωμένη εικόνα."
 "Maximum Height","Μέγιστο Ύψος"
@@ -1019,6 +1028,7 @@ Position,Θέσης
 "We cannot save the dynamic block.","Δεν μπορούμε να σώσουμε το δυναμικό τμήμα."
 "Invalid Request","Άκυρο Αίτημα"
 "Please enter a name.","Παρακαλώ εισάγετε ένα όνομα."
+"Content includes restricted HTML elements. %1","Το περιεχόμενο περιλαμβάνει περιορισμένα στοιχεία HTML. %1"
 "Make sure that dynamic blocks rotator does not reference the dynamic block itself.","Βεβαιωθείτε ότι το περιστροφέας δυναμικού τμήματος δεν παραπέμπει στο ίδιο το δυναμικό τμήμα."
 "-- None --",--Κανένα--
 "Invalid content","Μη έγκυρο περιεχόμενο"
@@ -1161,6 +1171,7 @@ URL,"Διεύθυνση URL"
 "Street address is required.","Ταχυδρομική διεύθυνση είναι απαραίτητη."
 "Street address is too long.","Ταχυδρομική διεύθυνση είναι πολύ μεγάλη."
 "Postal code can only contain letters, numbers, spaces, and hyphens.","Ο ταχυδρομικός κωδικός μπορεί να περιέχει μόνο γράμματα, αριθμούς, κενά, και παύλες."
+"US state codes must be two characters to meet PayPal Seller Protection requirements.","Οι αμερικανικοί κωδικοί των κρατών πρέπει να είναι δύο χαρακτήρες για να πληρούν τις απαιτήσεις Προστασίας Πωλητή PayPal."
 "Incomplete PayPal account information.","Ελλιπείς πληροφορίες λογαριασμού PayPal."
 "Invalid PayPal account information.","Μη έγκυρες πληροφορίες λογαριασμού PayPal."
 "PayPal Accounts are not accepted by this merchant account.","Οι λογαριασμοί PayPal δεν γίνονται αποδεκτοί από αυτόν τον λογαριασμό εμπόρου."
@@ -1261,10 +1272,18 @@ State/Province,Νομός/επαρχία
 "Braintree Settlement","Διευθέτηση Braintree"
 "If you don't specify the merchant account to use to process a transaction, Braintree will process it using your default merchant account.","Αν δεν καθορίσετε τον εμπορικό λογαριασμό που θα χρησιμοποιηθεί για την επεξεργασία μιας συναλλαγής, η Braintree θα την επεξεργαστεί χρησιμοποιώντας τον προεπιλεγμένο λογαριασμό εμπόρου."
 "Be sure to Enable Advanced Fraud Protection in Your Braintree Account in Settings/Processing Section","Βεβαιωθείτε ότι έχετε ενεργοποιήσει τη Προηγμένη Προστασία Απάτης ο Avs στον λογαριασμό Braintree στο τμήμα Ρυθμίσεις/Επεξεργασία"
+"Used for direct fraud tool integration. Make sure you also contact <a href=""mailto:accounts@braintreepayments.com"">accounts@braintreepayments.com</a> to setup your Kount account.","Χρησιμοποιείται για άμεση ενσωμάτωση εργαλείου απάτης. Βεβαιωθείτε ότι μπορείτε επίσης να επικοινωνήσετε με <a href=""mailto:accounts@braintreepayments.com"">accounts@braintreepayments.com</a> για να ρυθμίσετε τον λογαριασμό Kount σας."
 "Be sure to Enable AVS and/or CVV in Your Braintree Account in Settings/Processing Section.","Βεβαιωθείτε ότι έχετε ενεργοποιήσει το AVS ή/και το CVV στον λογαριασμό Braintree στο τμήμα Ρυθμίσεις/Επεξεργασία."
 "It is recommended to set this value to ""PayPal"" per store views.","Συνιστάται να ρυθμίσετε αυτήν την τιμή ""Paypal"" ανά προβολές καταστήματος."
 "This feature needs be enabled first for the merchant account through PayPal technical support.","Αυτή η δυνατότητα πρέπει να ενεργοποιηθεί πρώτα για τον εμπορικό λογαριασμό μέσω της τεχνικής υποστήριξης του PayPal."
 "Also affects mini-shopping cart.","Επηρεάζει επίσης το μίνι-καλάθι αγορών."
+"Dynamic descriptors are sent on a per-transaction basis and define what will appear on your customers credit card statements for a specific purchase.
+                            The clearer the description of your product, the less likely customers will issue chargebacks due to confusion or non-recognition.
+                            Dynamic descriptors are not enabled on all accounts by default. If you receive a validation error of 92203 or if your dynamic descriptors are not displaying as expected,
+                            please <a href=""mailto:support@getbraintree.com"">Braintree Support</a>.","Οι δυναμικοί περιγραφείς αποστέλλονται ανά βάση συναλλαγής και καθορίζουν τι θα εμφανιστεί στις δηλώσεις πιστωτικής κάρτας των πελατών σας για μια συγκεκριμένη αγορά.
+                             Όσο σαφέστερη είναι η περιγραφή του προϊόντος σας, τόσο λιγότεροι πιθανοί πελάτες θα εκδώσουν επιστροφές φόρου λόγω σύγχυσης ή μη αναγνώρισης.
+                             Οι δυναμικοί περιγραφείς δεν είναι ενεργοποιημένοι σε όλους τους λογαριασμούς από προεπιλογή. Εάν λάβετε ένα σφάλμα επικύρωσης 92203 ή εάν οι δυναμικοί σας περιγραφείς δεν εμφανίζονται όπως αναμένεται,
+                             <a href=""mailto:support@getbraintree.com"">Υποστήριξη Braintree</a>."
 "The value in the business name field of a customer's statement. Company name/DBA section must be either 3, 7 or 12 characters
                                 and the product descriptor can be up to 18, 14, or 9 characters respectively (with an * in between for a total descriptor name of 22 characters).","Η τιμή στο πεδίο της εταιρικής επωνυμίας της δήλωσης πελάτη. Το όνομα της εταιρείας/το τμήμα DBA πρέπει να έχει 3, 7 ή 12 χαρακτήρες
                                  και ο περιγραφέας του προϊόντος μπορεί να είναι έως 18, 14 ή 9 χαρακτήρες αντίστοιχα (με ένα * μεταξύ των για ένα συνολικό όνομα περιγραφικού χαρακτήρων 22 χαρακτήρων)."
@@ -1583,6 +1602,7 @@ Categories,Kατηγορίες
 "We can't update the attribute.","Αδύνατη η ενημέρωση του χαρακτηριστικού."
 "You saved the product attribute.","Αποθηκεύσατε το χαρακτηριστικό του προϊόντος."
 "The attribute couldn't be validated due to an error. Verify your information and try again. If the error persists, please try again later.","Το χαρακτηριστικό δεν μπορεί να επαληθευτεί λόγο σφάλματος. Επιβεβαιώστε τις πληροφορίες σας και δοκιμάστε ξανά. Αν το σφάλμα επιμένει, δοκιμάστε ξανά αργότερα."
+"Code (%1) is a reserved key and cannot be used as attribute code.","Κωδικός (%1) είναι ένα δεσμευμένο κλειδί και δεν μπορεί να χρησιμοποιηθεί ως κωδικός χαρακτηριστικού."
 "An attribute with this code already exists.","Υπάρχει ήδη ένα χαρακτηριστικό με αυτόν τον κώδικα."
 "An attribute with the same code (%1) already exists.","Υπάρχει ήδη ένα χαρακτηριστικό με τον ίδιο κωδικό (%1)."
 "The value of Admin must be unique. (%1)","Η τιμή του Διαχειριστή πρέπει να είναι μοναδική. (%1)"
@@ -1593,6 +1613,7 @@ Categories,Kατηγορίες
 "A group with the same name already exists.","Μια ομάδα με το ίδιο όνομα υπάρχει ήδη."
 "Something went wrong while saving this group.","Κάτι πήγε στραβά κατά την αποθήκευση αυτής της ομάδας."
 "A total of %1 record(s) have been deleted.","Συνολικά %1 εγγραφη(ές) έχουν διαγραφεί."
+"A total of %1 record(s) haven't been deleted. Please see server logs for more details.","Συνολικά %1 εγγραφή(ές) δεν έχουν διαγραφεί. Παρακαλώ δείτε τα αρχεία καταγραφής του διακομιστή για περισσότερες λεπτομέρειες."
 "A total of %1 record(s) have been updated.","Συνολικά %1 εγγραφή(ές) έχουν ενημερωθεί."
 "Something went wrong while updating the product(s) status.","Κάτι πήγε στραβά κατά την ενημέρωση της κατάστασης του προϊόντος(ων)."
 "The product was unable to be saved. Please try again.","Το προϊόν δεν ήταν δυνατόν να αποθηκευτεί. Παρακαλώ δοκιμάστε ξανά."
@@ -1614,6 +1635,7 @@ Categories,Kατηγορίες
 "You removed product %1 from the comparison list.","Αφαιρέσατε το προϊόν %1 από τη λίστα σύγκρισης."
 "1 item","1 είδος"
 "%1 items","%1 είδη"
+"The specified Catalog media URL format is not supported.","Η καθορισμένη μορφή URL πολυμέσων καταλόγου δεν υποστηρίζεται."
 "Are you sure you want to remove this item from your Compare Products list?","Είστε βέβαιοι ότι θέλετε να αφαιρέσετε αυτό το στοιχείο από τη Λίστα Σύγκρισης Προϊόντων;"
 "Are you sure you want to remove all items from your Compare Products list?","Είστε βέβαιοι ότι θέλετε να καταργήσετε όλα τα στοιχεία από τη Λίστα Σύγκρης Προϊόντων σας;"
 "Invalid attribute %1","Μη έγκυρο χαρακτηριστικό %1"
@@ -1621,7 +1643,10 @@ Grid,Πλέγμα
 List,Λίστα
 "Bad controller interface for showing product","Κακή διεπαφή ελεγκτή για προβολή προϊόντος"
 "Product is not loaded","Το προϊόν δεν έχει φορτωθεί"
+"Selected layout update is not available","Η επιλεγμένη ενημέρωση διάταξης δεν είναι διαθέσιμη"
 "Sorry, something went wrong during product attributes update. Please see log for details.","Λυπούμαστε, παρουσιάστηκε σφάλμα κατά την ενημέρωση των χαρακτηριστικών του προϊόντος. Παρακαλώ δείτε το αρχείο καταγραφής για λεπτομέρειες."
+"Custom layout update text cannot be changed, only removed","Το κείμενο ενημέρωσης προσαρμοσμένης διάταξης δεν μπορεί να αλλάξει, μόνο καταργήθηκε"
+"Using restricted HTML elements for ""%1"". %2","Χρησιμοποιώντας περιορισμένα στοιχεία HTML για το ""%1"". %2"
 "Make sure the To Date is later than or the same as the From Date.","Βεβαιωθείτε ότι η Έως Ημερομηνία να είναι μεταγενέστερη ή ίδια με την Από Ημερομηνία."
 "Sorry, but we can't find the new parent category you selected.","Συγγνώμη, αλλά δεν μπορούμε να βρούμε την νέα γονική κατηγορία που επιλέξατε."
 "Sorry, but we can't find the new category you selected.","Συγγνώμη, αλλά δεν μπορούμε να βρούμε τη νέα κατηγορία που έχετε επιλέξει."
@@ -1640,10 +1665,12 @@ List,Λίστα
 "The category doesn't contain the specified product.","Η κατηγορία δεν περιέχει το συγκεκριμένο προϊόν."
 "Could not save product ""%product"" with position %position to category %category","Δεν μπορούσαμε να σώσουμε προϊόν ""%product"" με την θέση %position στην κατηγορία %category"
 "The category doesn't contain the specified products.","Η κατηγορία δεν περιέχει τα συγκεκριμένα προϊόντα."
+"Could not save products ""%products"" to category %category","Δεν ήταν δυνατή η αποθήκευση προϊόντων ""%pαγωγοί"" στην κατηγορία %cκατηγορία"
 "Operation do not allow to move a parent category to any of children category","Η Λειτουργία δεν επιτρέπει να μετακινήσετε μια γονική κατηγορία σε οποιοδήποτε από τις κατηγορίες παιδιά"
 "Could not move category","Δεν ήταν δυνατή η μετακίνηση της κατηγορίας"
 "Could not save category: %1","Δεν ήταν δυνατή η αποθήκευση της κατηγορίας: %1"
 "Cannot delete category with id %1","Δεν είναι δυνατό να διαγράψετε την κατηγορία με id %1"
+"This customer is not authorized to access this list","Αυτός ο πελάτης δεν είναι εξουσιοδοτημένος να έχει πρόσβαση σε αυτή τη λίστα"
 "-- Please Select a Category --","--Παρακαλώ Επιλέξτε μια Κατηγορία--"
 "Grid Only","Μόνο πλέγμα"
 "List Only","Λίστα μόνο"
@@ -1665,6 +1692,7 @@ Bottom/Left,Κάτω/Αριστερά
 Bottom/Right,Κάτω/Δεξιά
 Center,Κέντρο
 "Image optimization based on query parameters","Βελτιστοποίηση εικόνας με βάση τις παραμέτρους ερωτήματος"
+"Unique hash per image variant (Legacy mode)","Μοναδικό κατακερματισμό ανά παραλλαγή εικόνας (Λειτουργία ενεργοποίησης)"
 "%1 doesn't extends \Magento\Framework\Model\AbstractModel","%1 δεν επεκτείνει το \Magento\Framework\Model\AbstractModel"
 "Something went wrong while saving the file(s).","Κάτι πήγε στραβά κατά την αποθήκευση του αρχείου(ων)."
 "File validation failed.","Η επαλήθευση αρχείου απέτυχε."
@@ -2004,6 +2032,7 @@ Comma-separated.,"Διαχωρισμένες με κόμμα."
 "Use Canonical Link Meta Tag For Products","Χρήση Μετα-Ετικέτας Κανονικού Σύνδεσμου για Προϊόντα"
 "Catalog Price Scope","Πεδίο Τιμής Καταλόγου"
 "This defines the base currency scope (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").","Αυτό ορίζει το πεδίο εφαρμογής της νομισματικής βάσης (""Διαμόρφωση Νομίσματος"" > ""Επιλογές Νομίσματος"" > ""Νόμισμα Βάσης"")."
+"Display Category Filter","Φίλτρο Κατηγορίας Εμφάνισης"
 "Category Top Navigation","Επάνω Πλοήγηση Καταλόγου"
 "Maximal Depth","Μέγιστο βάθος"
 "Date & Time Custom Options","Προσαρμοσμένες Επιλογές Ημερομηνίας & Ώρας"
@@ -2018,6 +2047,8 @@ Comma-separated.,"Διαχωρισμένες με κόμμα."
 "Default Layouts","Προεπιλεγμένες Διατάξεις"
 "Default Product Layout","Προεπιλεγμένη Διάταξη Προϊόντος"
 "Default Category Layout","Προεπιλεγμένη Διάταξη Κατηγορίας"
+"Catalog media URL format","Μορφή URL πολυμέσων καταλόγου"
+"Images should be optimized based on query parameters by your CDN or web server. Use the legacy mode for backward compatibility. <a href=""https://docs.magento.com/m2/ee/user_guide/configuration/general/web.html#url-options"">Learn more</a> about catalog URL formats.<br/><br/><strong style=""color:red"">Warning!</strong> If you switch back to legacy mode, you must <a href=""https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/themes/theme-images.html#resize-catalog-images"">use the CLI to regenerate images</a>.","Οι εικόνες θα πρέπει να βελτιστοποιούνται με βάση τις παραμέτρους ερωτήματος από το CDN ή το διακομιστή web σας. Χρησιμοποιήστε τη λειτουργία παλαιού τύπου για συμβατότητα προς τα πίσω. <a href=""https://docs.magento.com/m2/ee/user_guide/configuration/general/web.html#url-options"">Μάθετε περισσότερα</a> σχετικά με τις μορφές URL καταλόγου.<br/><br/><strong style=""color:red"">Προειδοποίηση!</strong> Αν επιστρέψετε σε λειτουργία παλαιού τύπου, πρέπει να <a href=""https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/themes/theme-images.html#resize-catalog-images"">χρησιμοποιήσετε το CLI για να αναγεννήσετε τις εικόνες</a>."
 Quality,Ποιότητα
 "Jpeg quality for resized images 1-100%.","Ποιότητα Jpeg για αλλαγή μεγέθους εικόνων 1-100%."
 "Product Info Column","Στήλη Πληροφοριών Προϊόντος"
@@ -2168,6 +2199,7 @@ Closed,Κλειστό
 "This product is no longer on sale.","Αυτό το προϊόν δεν είναι πλέον σε προσφορά."
 "Some of these products can no longer be sold.","Μερικά από αυτά τα προϊόντα δεν μπορούν πλέον να πωληθούν."
 "Select Category","Επιλογή κατηγορίας"
+Dayclears,Ημέρακαθαρίζει
 Hrs,Ώρες
 Mins,Λεπτά
 Sec,Δευτερόλεπτα
@@ -2217,6 +2249,7 @@ End,Τέλος
 "File directory '%1' is not readable.","Ο κατάλογος του αρχείου '%1' δεν είναι αναγνώσιμος."
 "File directory '%1' is not writable.","Ο κατάλογος του αρχείου '%1' δεν είναι εγγράψιμος."
 "Value for 'price' sub attribute in 'store' attribute contains incorrect value","Η Τιμή για το υπό-χαρακτηριστικό 'price' στο χαρακτηριστικό 'store' περιέχει εσφαλμένη τιμή"
+"Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: %1","Η Τιμή για το υπό-χαρακτηριστικό 'type' στο χαρακτηριστικό 'custom_options' περιέχει εσφαλμένη τιμή, αποδεκτές τιμές: %1"
 "Please enter a value for title.","Παρακαλώ εισάγετε μια τιμή για τον τίτλο."
 "Value for 'price' sub attribute in 'custom_options' attribute contains incorrect value","Η Τιμή για το υπό-χαρακτηριστικό 'price' στο χαρακτηριστικό 'custom_options' περιέχει εσφαλμένη τιμή"
 "Value for 'maximum characters' sub attribute in 'custom_options' attribute contains incorrect value","Η Τιμή για το υπό-χαρακτηριστικό 'maximum characters' στο χαρακτηριστικό 'custom_options' περιέχει εσφαλμένη τιμή"
@@ -2226,6 +2259,8 @@ End,Τέλος
 "Custom options have different types.","Οι προσαρμοσμένες επιλογές έχουν διαφορετικούς τύπους."
 "Every option entity must have a parent product entity.","Κάθε επιλογή οντότητας πρέπει να έχει μια γονική οντότητα προϊόντος."
 "Please correct the parameters.","Παρακαλώ διορθώστε τις παραμέτρους."
+"Filename is too long; must be %1 characters or less","Το όνομα αρχείου είναι πολύ μεγάλο, πρέπει να είναι %1 χαρακτήρες ή λιγότερο"
+"Disallowed file type.","Μη επιτρεπόμενος τύπος αρχείου."
 "File '%1' was not found or has read restriction.","Το αρχείο '%1' δεν βρέθηκε ή έχει περιορισμό ανάγνωσης."
 "Minimum Qty","Ελάχιστη Ποσ."
 "Add Minimum Qty","Προσθέστε Ελάχιστη Ποσ."
@@ -2774,6 +2809,8 @@ Duplicated,Κλωνοποιήθηκε
 "Could not save company","Δεν ήταν δυνατή η αποθήκευση της εταιρίας"
 "You have saved company %companyName.","Αποθηκεύσατε την εταιρεία %companyName."
 "You have created company %companyName.","Δημιουργήσατε την εταιρεία %companyName."
+"You have accepted the invitation to the company","Αποδεχθήκατε την πρόσκληση στην εταιρεία"
+"Error occurred when trying to accept the invitation. Please try again later.","Παρουσιάστηκε σφάλμα κατά την προσπάθεια αποδοχής της πρόσκλησης. Παρακαλώ προσπαθήστε ξανά αργότερα."
 "A user with this email address already exists in the system. If you proceed, the user will be linked to your company.","Ένας χρήστης με αυτήν τη διεύθυνση email υπάρχει ήδη στο σύστημα. Εάν συνεχίσετε, ο χρήστης θα συνδεθεί με την εταιρεία σας."
 "A user with this email address is already a member of your company.","Ένας χρήστης με αυτήν τη διεύθυνση email είναι ήδη μέλος της εταιρείας σας."
 "A user with this email address already exists in the system. Enter a different email address to create this user.","Ένας χρήστης με αυτήν τη διεύθυνση email υπάρχει ήδη στο σύστημα. Καταχωρίστε μια διαφορετική διεύθυνση email για τη δημιουργία αυτού του χρήστη."
@@ -2782,6 +2819,7 @@ Duplicated,Κλωνοποιήθηκε
 "The customer was successfully created.","Ο πελάτης δημιουργήθηκε με επιτυχία."
 "You cannot delete yourself.","Δεν μπορείτε να διαγράψετε τον εαυτό σας."
 "Cannot delete this user.","Δεν μπορείτε να διαγράψετε αυτόν τον χρήστη."
+"%1's account has been set to Inactive.","Ο λογαριασμός του %1 έχει οριστεί σε Ανενεργό."
 "The customer was successfully deleted.","Ο πελάτης διαγράφηκε με επιτυχία."
 "The customer was successfully updated.","Ο πελάτης ενημερώθηκε με επιτυχία."
 "Company Profile","Προφίλ Εταιρίας"
@@ -2799,6 +2837,7 @@ Duplicated,Κλωνοποιήθηκε
 "The team was successfully created.","Η ομάδα δημιουργήθηκε με επιτυχία."
 "Company Users","Χρήστες Εταιρίας"
 "A customer with the same email already assigned to company.","Ένας πελάτης με το ίδιο email έχει ήδη ανατεθεί στην εταιρεία."
+"Invitation was sent to an existing customer, they will be added to your organization once they accept the invitation.","Η πρόσκληση στάλθηκε σε έναν υπάρχοντα πελάτη, θα προστεθούν στον οργανισμό σας μόλις αποδεχτούν την πρόσκληση."
 "Pending Approval","Αναμένουν Έγκριση"
 Rejected,Απορρίφθηκε
 Blocked,Αποκλεισμένο
@@ -2810,7 +2849,11 @@ Blocked,Αποκλεισμένο
 "Cannot delete company with id %1","Δεν είναι δυνατό να διαγράψετε την εταιρία με id %1"
 "No company admin email is specified in request.","Δεν έχει προσδιοριστεί email διαχειριστή σε αυτή την αίτηση."
 "No company admin website ID is specified in request.","Δεν έχει προσδιοριστεί ID ιστότοπου διαχειριστή σε αυτή την αίτηση."
+"The Store View selected for sending Welcome email from is not related to the customer's associated website.","Η Προβολή Καταστήματος που επιλέγεται για την αποστολή email καλωσορίσματος από δεν σχετίζεται με τη συσχετιζόμενη ιστοσελίδα του πελάτη."
 "No such entity with id = %idValue","Δεν υπάρχει τέτοια οντότητα με id = %idValue"
+"Already assigned to a company","Έχει ήδη ανατεθεί σε μια εταιρεία"
+"Could not assign to the company","Δεν ήταν δυνατή η αντιστοίχιση με την εταιρεία"
+"Invalid code provided","Παρέχεται μη έγκυρος κωδικός"
 "The user %1 is the company admin and cannot be set to inactive. You must set another user as the company admin first.","Ο χρήστης %1 είναι ο διαχειριστής της εταιρείας και δεν μπορεί να οριστεί ανενεργός. Πρέπει να ορίσετε πρώτα έναν άλλο χρήστη ως διαχειριστή της εταιρείας."
 "You cannot update the requested attribute. Row ID: %fieldName = %fieldValue.","Δεν μπορείτε να ενημερώσετε το απαιτούμενο χαρακτηριστικό. Αριθμός σειράς: %fieldName = %fieldValue."
 "Invalid attribute value. Cannot change company for a company admin.","Μη έγκυρη τιμή χαρακτηριστικού. Δεν είναι δυνατή η αλλαγή εταιρείας για έναν διαχειριστή εταιρείας."
@@ -2830,6 +2873,7 @@ Blocked,Αποκλεισμένο
 "This customer is a user of a different company. Enter a different email address to continue.","Αυτός ο πελάτης είναι χρήστης διαφορετικής εταιρείας. Εισαγάγετε διαφορετική διεύθυνση email για να συνεχίσετε."
 "Company with this email address already exists in the system. Enter a different email address to continue.","Εταιρεία με αυτή τη διεύθυνση email υπάρχει ήδη στο σύστημα. Εισαγάγετε διαφορετική διεύθυνση email για να συνεχίσετε."
 "Invalid attribute value. Rejected date&time and Rejected Reason can be changed only when a company status is changed to Rejected.","Μη έγκυρη τιμή χαρακτηριστικού. Η Απορριφθείσα ημερομηνία και ώρα και ο Λόγος Απόρριψης μπορούν να αλλάξουν μόνο όταν η κατάσταση της εταιρείας αλλάξει στην Απόρριψη."
+"Invalid attribute value. Rejected date&time and Rejected Reason can not be null when a company status is changed to Rejected.","Μη έγκυρη τιμή χαρακτηριστικού. Απορριφθείσα ημερομηνία και απορριφθείσα αιτία δεν μπορεί να είναι μηδέν όταν μια κατάσταση της εταιρείας αλλάζει σε απορρίπτεται."
 "Could not save company: %1","Δεν ήταν δυνατή η αποθήκευση της εταιρίας: %1"
 "Cannot delete structure with id %1","Δεν είναι δυνατή η διαγραφή δομής με id %1"
 "Could not create team","Δεν ήταν δυνατόν να δημιουργηθεί ομάδα"
@@ -2862,6 +2906,7 @@ Duplicate,Κλωνοποίηση
 "Customer Type:","Τύπος Πελάτη:"
 Company:,Εταιρία:
 "User Role","Ρόλος Χρήστη"
+"User Roles","Ρόλοι Χρήστη"
 "Company Information","Πληροφορίες Εταιρίας"
 "Company Legal Name","Επίσημη Επωνυμία ΕταιρΕίας"
 "Company Email","Εταιρικό Email"
@@ -2891,12 +2936,14 @@ Contacts,Επαφές
 "Add New User","Προσθήκη Νέου Χρήστη"
 "This action will replace your Company Admin.","Αυτή η ενέργεια θα αντικαταστήσει τον Διαχειριστή της Εταιρείας σας."
 "* Your latest changes on the company profile have not been saved yet.","* Οι τελευταίες σας αλλαγές στο προφίλ της εταιρείας δεν έχουν αποθηκευτεί ακόμα."
+"Assigned to %company_name as Company Admin","Ανατέθηκε στο %company_name ως Διαχειριστής Εταιρείας"
 "Dear %name,","Αγαπητέ/ή %name,"
 "You have been assigned to <a href=""%customer_url"">%company_name</a> as the Company Admin.","Ανατεθήκατε στο <a href=""%customer_url"">%company_name</a> ως διαχειριστής της εταιρείας."
 "When you sign in to your account, you can:","Όταν συνδεθείτε στο λογαριασμό σας, θα μπορείτε να:"
 "* Create and manage company users and teams","* Δημιουργήστε και διαχειριστείτε τους χρήστες και τις ομάδες της εταιρείας"
 "* Manage user permissions for the store","* Διαχείριση δικαιωμάτων χρήστη για το κατάστημα"
 "* Create and manage company shipping and billing addresses","* Δημιουργία και διαχείριση εταιρικών διευθύνσεων αποστολής και χρέωσης"
+"You've been linked to a company","Έχετε συνδεθεί με μια εταιρεία"
 "You've been added to the <a href=%customer_url>%company_name</a> as the company member.
     Once you enter your account,
     the company's shared resources will be available for you.","Έχετε προστεθεί στο <a href=%customer_url>%company_name</a> ως μέλος της εταιρείας.
@@ -2905,6 +2952,9 @@ Contacts,Επαφές
 "If this is a mistake,
     please contact the company Admin at %company_admin_email.","Αν αυτό είναι λάθος,
      επικοινωνήστε με τον διαχειριστή της εταιρείας στο %company_admin_email."
+"A company has invited you to join","Μια εταιρεία σας προσκάλεσε να συμμετάσχετε"
+"Dear %firstname","Αγαπητέ/ή %firstname"
+"%admin has invited you to join %company, click the link below to accept","%admin σας προσκάλεσε να συμμετάσχετε %company, κάντε κλικ στον παρακάτω σύνδεσμο για να αποδεχτείτε"
 "Your account is now active","Ο λογαριασμός σας είναι τώρα ενεργός"
 "Your account is now active. You can use it to login to the <a href=""%customer_url"">website</a>.","Ο λογαριασμός σας είναι πλέον ενεργός. Μπορείτε να τον χρησιμοποιήσετε για να συνδεθείτε στον <a href=""%customer_url"">ιστότοπο</a>."
 "Your account is locked","Ο λογαριασμός σας έχει κλειδωθεί"
@@ -2912,8 +2962,10 @@ Contacts,Επαφές
 "If this is a mistake, please contact the seller.","Εάν πρόκειται για λάθος, επικοινωνήστε με τον πωλητή."
 "Your account set inactive","Ο λογαριασμός σας ορίστηκε ανενεργός"
 "Your account has been set to inactive and you cannot now access the company account. If you think this is a mistake, please contact your manager for details.","Ο λογαριασμός σας έχει οριστεί σε ανενεργό και δεν έχετε πλέον πρόσβαση στον εταιρικό λογαριασμό. Αν νομίζετε ότι πρόκειται για λάθος, επικοινωνήστε με τον διευθυντή σας για λεπτομέρειες."
+"New company registration request","Αίτημα εγγραφής νέας εταιρείας"
 "A company registration request has been submitted by customer %customer. The account is temporarily locked until you approve or reject this company.","Έχει υποβληθεί αίτημα εγγραφής εταιρείας από πελάτη %customer. Ο λογαριασμός είναι προσωρινά κλειδωμένος μέχρι να εγκρίνετε ή να απορρίψετε αυτήν την εταιρεία."
 "Company: %company","Εταιρία: %company"
+"Your company account is active","Ο λογαριασμός της εταιρείας σας είναι ενεργός"
 "Your company registration request (for the <strong>%company_name</strong>)
     has been approved and you have been set as the Company Admin.
     You can now create and manage your company structure.
@@ -2930,7 +2982,9 @@ Contacts,Επαφές
      είναι τώρα <strong>Ενεργή</strong>.
      Μόλις συνδεθείτε, θα μπορείτε να πραγματοποιείτε παραγγελίες εκ μέρους της εταιρείας σας
      και να χρησιμοποιήσετε άλλες λειτουργίες B2B."
+"You’re no longer Company Admin","Δεν είστε πλέον Διαχειριστής Εταιρείας"
 "Your account type has been changed from Company Admin to a regular user account. If you think this is a mistake, please contact your manager for details.","Ο τύπος του λογαριασμού σας έχει αλλάξει από Διαχειριστής Εταιρείας σε έναν κανονικό λογαριασμό χρήστη. Αν νομίζετε ότι πρόκειται για λάθος, επικοινωνήστε με τον διευθυντή σας για λεπτομέρειες."
+"Assigned to %company_name as Sales Representative","Ανατέθηκε στο %company_name ως Αντιπρόσωπος Πωλήσεων"
 "You have been assigned to %company_name as the Sales Representative.","Ανατεθήκατε στο %company_name ως Υπεύθυνος Πωλήσεων."
 "When you sign in to your account, you will be able to:","Όταν συνδεθείτε στο λογαριασμό σας, θα είστε σε θέση να:"
 "* View and manage company quotes in Admin Panel","* Δείτε και διαχειριστείτε τις προσφορές της εταιρείας στον Πίνακα Διαχειριστών"
@@ -2974,6 +3028,7 @@ Proceed,Προχωρήστε
 "Cannot Delete Role","Δεν είναι δυνατή η Διαγραφή του Ρόλου"
 "Cannot Delete Customer","Δεν είναι δυνατή η Διαγραφή του Πελάτη"
 "Set as Inactive","Ορισμός ως Ανενεργό"
+"Select Delete to permanently delete the user account and content. User's orders and quotes are still visible for the merchant. Select Set as Inactive to temporarily lock the user. The user’s content is still available to parent users.","Επιλέξτε Διαγραφή για να διαγράψετε οριστικά τον λογαριασμό χρήστη και το περιεχόμενο. Οι παραγγελίες και τα εισαγωγικά του χρήστη εξακολουθούν να είναι ορατά για τον έμπορο. Επιλέξτε το Σετ ως Ανενεργό για να κλειδώσετε προσωρινά το χρήστη. Το περιεχόμενο του χρήστη εξακολουθεί να είναι διαθέσιμο στους γονικούς χρήστες."
 "User with this email already exists in the system. Enter a different email address to continue. If you want to use your current account as an administrator account, please contact the seller.","Ο χρήστης με αυτό το email υπάρχει ήδη στο σύστημα. Εισαγάγετε διαφορετικό email για να συνεχίσετε. Αν θέλετε να χρησιμοποιήσετε τον τρέχοντα λογαριασμό σας ως λογαριασμό διαχειριστή, επικοινωνήστε με τον πωλητή."
 "Manage Companies","Διαχείριση Εταιρειών"
 "Company Configuration Section","Τμήμα Διαμόρφωσης Εταιρείας"
@@ -3017,6 +3072,7 @@ Comma-separated,"Διαχωρισμένες με κόμμα"
 "Manage roles and permissions","Διαχείριση ρόλων και δικαιωμάτων"
 "View users and teams","Προβολή χρηστών και ομάδων"
 "Manage users and teams","Διαχείριση χρηστών και ομάδων"
+"Allow Checkout","Επιτρέψτε Ολοκλήρωση Αγοράς"
 "Use Pay On Account method","Χρήση Πληρωμής Σε μέθοδο Λογαριασμού"
 "View orders","Προβολή παραγγελιών"
 "View orders of subordinate users","Προβολή παραγγελιών δευτερευόντων χρηστών"
@@ -3087,6 +3143,9 @@ Reimbursed,Επιστράφηκε
 Reverted,Επανήλθαν
 "Could not save history","Δεν ήταν δυνατή η αποθήκευση του ιστορικού"
 "Cannot delete history with id %1","Δεν είναι δυνατό να διαγράψετε το ιστορικό με id %1"
+"Missing parameters to complete action request","Λείπουν παράμετροι για να ολοκληρωθεί το αίτημα ενέργειας"
+"Company id: %1 (%2)","Id εταιρείας: %1 (%2)"
+"Error during reimburse: %1","Σφάλμα κατά την επιστροφή: %1"
 "Could not save company credit limit","Δεν ήταν δυνατή η αποθήκευση του πιστωτικού ορίου της εταιρείας"
 "Please enter a valid %1/%2 currency rate.","Εισαγάγετε μια έγκυρη ισοτιμία %1/%2."
 "Invoice created for %1","Τιμολόγιο για %1 δημιουργήθηκε"
@@ -3110,7 +3169,9 @@ Reverted,Επανήλθαν
 "Available Credit:","Διαθέσιμη Πίστωση:"
 "Credit Limit:","Πιστωτικό Όριο:"
 "Custom Reference Number","Προσαρμοσμένος Αριθμός Αναφοράς"
+"%1 is disabled when the available credit is less than the Order Grand Total.","%1 είναι απενεργοποιημένο όταν η διαθέσιμη πίστωση είναι μικρότερη από το Γενικό Σύνολο Παραγγελίας."
 "Charged off the company credit: %1","Χρεώθηκε από το πιστωτικό της εταιρείας: %1"
+"Custom Reference Number: %1","Προσαρμοσμένος αριθμός αναφοράς: %1"
 "The base currency for %1 has been updated. The currency %2 is still defined as the credit currency for one or more companies. Use the following <a href=""%3"" id=""update-credit-link"">link</a> to perform a bulk operation that updates the credit currency for those companies.","Το βασικό νόμισμα για το %1 έχει ενημερωθεί. Το νόμισμα %2 εξακολουθεί να ορίζεται ως το νόμισμα πίστωσης για μία ή περισσότερες εταιρείες. Χρησιμοποιήστε τον παρακάτω <a href=""%3"" id=""update-credit-link"">σύνδεσμο</a> για να εκτελέσετε μια μαζική ενέργεια που ενημερώνει το νόμισμα πίστωσης για αυτές τις εταιρείες."
 "%1 has exceeded its credit limit (%2) by %3. Its outstanding balance, including this order, currently totals %4.","%1 έχει υπερβεί το πιστωτικό όριο (%2) κατά %3. Το οφειλόμενο υπόλοιπο, συμπεριλαμβανομένης αυτής της παραγγελίας, ανέρχεται τώρα σε %4."
 "The credit limit for %1 is %2. Its outstanding balance, including this order, currently totals %3","Το πιστωτικό όριο για το %1 είναι %2. Το οφειλόμενο υπόλοιπο, συμπεριλαμβανομένης αυτής της παραγγελίας, ανέρχεται επί του παρόντος σε %3"
@@ -3170,6 +3231,7 @@ Operation,Λειτουργία
 "Updated By","Ενημερώθηκε Από"
 "You will be charged for","Θα χρεωθείτε για"
 "All Payment Methods","Όλοι οι Τρόποι Πληρωμής"
+"Selected Payment Methods","Επιλεγμένοι Τρόποι Πληρωμής"
 "B2B Payment Methods","B2B Μέθοδοι Πληρωμής"
 "All Enabled Payment Methods","Όλοι οι Ενεργοί Τρόποι Πληρωμής"
 " (disabled)"," (απενεργοποιημένο)"
@@ -4483,6 +4545,7 @@ hello,"γεια σου"
 "Switch/Solo/Maestro Only","Switch/Solo/Maestro Μόνο"
 "Issue Number","Αριθμός Έκδοσης"
 "The response type is incorrect. Verify the type and try again.","Ο τύπος απάντησης είναι εσφαλμένος. Επαληθεύστε τον τύπο και προσπαθήστε ξανά."
+"Can't convert a shipping cost from ""%1-%2"" for FedEx carrier.","Δεν είναι δυνατή η μετατροπή ενός κόστους αποστολής από το ""%1-%2"" για τον μεταφορέα Fedex."
 "Europe First Priority","Προτεραιότητα της Ευρώπης πρώτα"
 "1 Day Freight","Μεταφορικά 1 Μέρας"
 "2 Day Freight","Μεταφορικά 2 ημερών"
@@ -4522,6 +4585,7 @@ Indirect,Έμμεση
 "For some reason we can't retrieve tracking info right now.","Αυτή τη στιγμή, για κάποιο λόγο δεν μπορούν να ανακτηθούν οι πληροφορίες παρακολούθησης."
 status,κατάσταση
 "Empty response","Κενή απόκριση"
+"Expected Delivery:","Αναμενόμενη Παράδοση:"
 "Account ID","ID λογαριασμού"
 "Please make sure to use only digits here. No dashes are allowed.","Παρακαλώ βεβαιωθείτε ότι χρησιμοποιείτε μόνο ψηφία εδώ. Επιτρέπονται χωρίς παύλες."
 "Meter Number","Αριθμός μετρητή"
@@ -4997,8 +5061,10 @@ Creative,Δημιουργική
 "Grouped Products","Ομαδοποιημένα Προϊόντα"
 "Please specify the quantity of product(s).","Παρακαλώ προσδιορίσετε την ποσότητα του(των) προϊόντος/ων."
 "Cannot process the item.","Δεν μπορεί να επεξεργαστεί το στοιχείο."
+"Please specify id and qty for grouped options.","Παρακαλώ καθορίστε id και ποσ. για ομαδοποιημένες επιλογές."
 "Add Products to Group","Προσθέστε Προϊόντα στην Ομάδα"
 "A grouped product is made up of multiple, standalone products that are presented as a group. You can offer variations of a single product, or group them by season or theme to create a coordinated set. Each product can be purchased separately, or as part of the group.","Ένα ομαδοποιημένο προϊόν αποτελείται από πολλά, μεμονωμένα προϊόντα που παρουσιάζονται ως μια ομάδα. Μπορείτε να προσφέρετε παραλλαγές ενός προϊόντος, ή να ομαδοποιήσετε ανά σεζόν ή το θέμα για να δημιουργήσετε ένα συντονισμένο σύνολο. Κάθε προϊόν μπορεί να αγοραστεί χωριστά ή ως μέρος της ομάδας."
+Position,Θέση
 "There are no grouped products.","Δεν υπάρχουν ομαδοποιημένα προϊόντα."
 "Default Qty","Προεπιλεγμένη Ποσότητα"
 "Starting at","Ξεκινώντας από"
@@ -5363,6 +5429,7 @@ items,στοιχεία
 "Cache types: %1 ","Τύπος Προσωρινής Αποθήκευσης: %1 "
 "Tax Rates Export","Εξαγωγή Συντελεστών ΦΠΑ"
 "Unknown callback function: %1::%2","Άγνωστη λειτουργία επανάκλησης: %1::%2"
+"More permissions are needed to access this.","Περισσότερα δικαιώματα είναι απαραίτητα για πρόσβαση σε αυτό."
 Success,Επιτυχία
 Failure,Αποτυχία
 "This user is locked","Αυτός ο χρήστης είναι κλειδωμένος"
@@ -5429,6 +5496,8 @@ Create,Δημιουργία
 "XML Sitemap","XML Χάρτη Ιστοτόπου"
 Widget,"Γραφικό στοιχείο"
 "PayPal Settlement Reports","Εκθέσεις Διευθέτησης PayPal"
+"Index Management","Διαχείριση Ευρετηρίου"
+"Design Configuration","Ρύθμιση Παραμέτρων Σχεδιασμού"
 "Archive File","Αρχείο Αρχειοθέτησης"
 "Action Group","Ομάδα Ενέργειας"
 "IP Address","Διεύθυνση IP"
@@ -5973,6 +6042,7 @@ Subscribers,Συνδρομητές
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Συγγνώμη, αλλά ο διαχειριστής δεν επιτρέπει τη εγγραφή για τους επισκέπτες. Παρακαλώ <a href=""%1"">εγγραφείτε</a>."
 "This email address is already subscribed.","Αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου έχει ήδη εγγραφεί."
 "Something went wrong with the subscription.","Κάτι πήγε στραβά με τη συνδρομή."
+"The confirmation request has been sent.","Έχει σταλεί η αίτηση επιβεβαίωσης."
 "Thank you for your subscription.","Σας ευχαριστούμε για την εγγραφή σας."
 "You unsubscribed.",Διαγραφήκατε.
 "Something went wrong while unsubscribing you.","Κάτι πήγε στραβά κατά την διαγραφή σας."
@@ -6000,6 +6070,7 @@ Subscribe,Εγγραφή
 "You have been unsubscribed from the newsletter.","Έχετε διαγραφεί με επιτυχία απ' το newsletter μας."
 "Newsletter Template","Προτύπου ενημερωτικού δελτίου"
 "Newsletter Section","Τμήμα ενημερωτικού δελτίου"
+Enabled,Ενεργοποιημένο
 "Subscription Options","Επιλογές συνδρομής"
 "Allow Guest Subscription","Επιτρέψτε Εγγραφή Επισκεπτών"
 "Need to Confirm","Πρέπει να επιβεβαιώσετε"
@@ -6020,6 +6091,7 @@ Subscriber,Συνδρομητής
 Processed,Επεξεργασία
 Recipients,Παραλήπτες
 Unsubscribe,Διαγραφείτε
+"Are you sure you want to delete the selected subscriber(s)?","Είστε βέβαιοι ότι θέλετε να διαγράψετε τους επιλεγμένους συνδρομητές?"
 "Customer First Name","Όνομα πελάτη"
 "Customer Last Name","Επώνυμο πελάτη"
 "Not Activated","Δεν Ενεργοποιήθηκε"
@@ -7120,7 +7192,6 @@ Rating,Βαθμολογία
 "Product Review (submitted on %1):","Αξιολόγηση Προϊόντος (για %1):"
 "Back to Product Reviews","Πίσω στις Αξιολογήσεις Προϊόντος"
 "Please select one of each of the ratings above.","Παρακαλούμε επιλέξτε μία από τις κάθε παραπάνω βαθμολογίες."
-Enabled,Ενεργοποιημένο
 "Allow Guests to Write Reviews","Επιτρέψτε στους Επισκέπτες να Γράψουν Κριτικές"
 "Reward Points History","Ιστορικό Πόντων Ανταμοιβής"
 "Expired reward","Ληγμένη ανταμοιβή"
@@ -8404,6 +8475,7 @@ Pricing,Τιμολόγηση
 "Website 1","Ιστότοπος 1"
 "Set Pricing and Structure","Ορίστε Τιμολόγηση και Δομή"
 "Assign Companies","Ανάθεση Εταιριών"
+"Delete ""%1""","Διαγραφή ""%1"""
 "Catalog and Tier Price","Κατάλογος και Κλιμακωτή Τιμή"
 "Group or Catalog","Ομάδα ή Κατάλογος"
 "You must enable the <a href=""%1"" data-role=""notification-dialog"">shared catalog</a> feature in 
@@ -9458,7 +9530,6 @@ Recommended,Συνιστάται
 Forced,Αναγκαστική
 "Sorry, but this password has already been used. Please create another.","Συγγνώμη, αλλά αυτός ο κωδικός πρόσβασης έχει ήδη χρησιμοποιηθεί. Παρακαλώ να δημιουργήσετε έναν άλλο."
 username,"όνομα χρήστη"
-"More permissions are needed to access this.","Περισσότερα δικαιώματα είναι απαραίτητα για πρόσβαση σε αυτό."
 "The password reset token is incorrect. Verify the token and try again.","Το διακριτικό επαναφοράς κωδικού είναι εσφαλμένο. Επαληθεύστε τον τύπο και προσπαθήστε ξανά."
 "Your account is temporarily disabled. Please try again later.","Ο λογαριασμός σας απενεργοποιήθηκε προσωρινά. Παρακαλούμε δοκιμάστε ξανά αργότερα."
 """User Name"" is required. Enter and try again.","""Όνομα Χρήστη"" είναι απαραίτητο. Εισάγετε και προσπαθήστε ξανά."
@@ -9490,7 +9561,6 @@ username,"όνομα χρήστη"
 "If you requested this change, reset your password here:","Αν ζητήσατε αυτή την αλλαγή, επαναφέρετε τον κωδικό πρόσβασης εδώ:"
 "New %changes for %user_name","Νέες %changes για %user_name"
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Έχουμε λάβει μια αίτηση για να αλλάξετε τις παρακάτω πληροφορίες που σχετίζονται με το λογαριασμό σας στο %store_name: %changes."
-"User Roles","Ρόλοι Χρήστη"
 "User Notification Template","Πρότυπο Ειδοποίησης Χρήστη"
 "New User Notification Template","Πρότυπο Ειδοποιήσεων Νέου Χρήστη"
 "We will disable this feature if the value is empty.","Θα απενεργοποιήσουμε αυτήν τη δυνατότητα, εάν η τιμή είναι κενή."
@@ -9644,6 +9714,7 @@ Bottom,Κάτω
 "%s SKU(s) processed successfully","Τα %s SKU(s) επεξεργάστηκαν με επιτυχία"
 "On Top","Στην κορυφή"
 "On Bottom","Στο κάτω μέρος"
+"Rule %1 does not exists","Ο κανόνας %1 δεν υπάρχει"
 "Category rules validation failed","Η επικύρωση κανόνα Κατηγορίας απέτυχε"
 "Clone category ID(s)","Κλωνοποίηση ID(s) κατηγορίας"
 "Date Created (days ago)","Ημερομινία Δημιουργίας (ημέρες πριν)"
