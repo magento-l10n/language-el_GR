@@ -432,7 +432,17 @@ Environment,Περιβάλλον
 options,επιλογές
 "Select all","Επιλογή όλων"
 "Deselect all","Αποεπιλογή όλων"
+Selected,Επιλεγμένο
 "We couldn't find any records.","Δεν βρέθηκαν εγγραφές."
+" Item(s)"," Είδος(η)"
+"Items ","Είδη "
+" to "," εώς "
+" of "," από "
+" total"," σύνολο"
+Page,Σελίδα
+Previous,Προηγούμενο
+"You're currently reading page","Διαβάζετε αυτή τη στιγμή τη σελίδα"
+Next,Επόμενο
 Show,Εμφάνιση
 "per page","ανά σελίδα"
 "%s of %s selected","%s από %s επιλεγμένα"
@@ -635,6 +645,7 @@ System,Σύστημα
 "An authentication error occurred. Verify and try again.","Παρουσιάστηκε ένα σφάλμα ελέγχου ταυτότητας. Επαληθεύστε και προσπαθήστε ξανά."
 "The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","Η Διάρκεια Ζωής Συνεδρίας Διαχειριστή δεν είναι έγκυρη. Ρυθμίστε τη διάρκεια ζωής σε 31536000 δευτερόλεπτα (ένα έτος) ή μικρότερη και δοκιμάστε ξανά."
 "The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","Η Διάρκεια Ζωής Συνεδρίας Διαχειριστή δεν είναι έγκυρη. Ρυθμίστε τη διάρκεια ζωής σε 60 δευτερόλεπτα ή περισσότερο και δοκιμάστε ξανά."
+Today,Σήμερα
 "Last 24 Hours","Τελευταίες 24 ώρες"
 "Last 7 Days","Τελευταίες 7 ημέρες"
 "Current Month","Τρέχων μήνας"
@@ -642,6 +653,7 @@ YTD,ΧΜΣ
 2YTD,2ΧΜΣ
 Order,Παραγγελία
 "Order #%1","Παραγγελία #%1"
+"URL key ""%1"" matches a reserved endpoint name (%2). Use another URL key.","Το κλειδί διεύθυνσης URL ""%1"" είναι ίδιο με δεσμευμένο όνομα τελικού σημείου (%2). Χρησιμοποιήστε άλλο κλειδί διεύθυνσης URL."
 "Save &amp; Continue","Αποθήκευση &amp; Συνέχεια"
 "Save &amp; Close","Αποθήκευση &amp; Κλείσιμο"
 "Save &amp; New","Αποθήκευση &amp; Νέο"
@@ -676,8 +688,6 @@ password,"κωδικός πρόσβασης"
 "Sign Out",Αποσύνδεση
 "About the calendar","Σχετικά με το ημερολόγιο"
 "Go Today","Στο Σήμερα"
-Previous,Προηγούμενο
-Next,Επόμενο
 Time,Ώρα
 Hour,Ώρα
 Minute,Λεπτό
@@ -719,6 +729,8 @@ Loading...,Φόρτωση...
 "User agent exceptions override product and CMS pages rules.","Οι εξαιρέσεις User agent αντικαθιστούν τους κανόνες προϊόντων και σελίδων CMS."
 "Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered.","Οι συμβολοσειρές αναζήτησης είναι είτε κανονικές συμβολοσειρές είτε κανονικές εκφράσεις (PCRE). Είναι αντιστοιχισμένες με την ίδια σειρά που έχουν εισαχθεί."
 Examples,Παραδείγματα
+"Previous Page","Προηγούμενη σελίδα"
+"Next Page","Επόμενη σελίδα"
 "Use Default Value","Χρήση Προκαθορισμένης Τιμής"
 "We could not detect a size.","Δεν μπορούσαμε να ανιχνεύσουμε ένα μέγεθος."
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Παρακαλώ επιβεβαιώστε την εναλλαγή πεδίου εφαρμογής. Όλα τα δεδομένα που δεν έχουν αποθηκευτεί θα χαθούν."
@@ -1349,6 +1361,7 @@ Separately,Χωριστά
 "Please select all required options.","Παρακαλώ επιλέξτε όλες τις απαιτούμενες επιλογές."
 "Option type (%types) should have only one element.","Ο τύπος επιλογής (%types) πρέπει να έχει μόνο ένα στοιχείο."
 "We can't add this item to your shopping cart right now.","Δεν μπορούμε να προσθέσουμε αυτό το προϊόν στο καλάθι των αγορών σας αυτή τη στιγμή."
+"Product relations processor must implement %1.","Ο επεξεργαστής σχέσεων προϊόντος πρέπει να υλοποιήσει το %1."
 N/A,"Μ/Δ Μή Διαθέσιμο"
 Percent,Ποσοστό
 "We can't save custom-defined options for bundles with dynamic pricing.","Δεν είναι δυνατή η αποθήκευση προσαρμοσμένων-ορισμών επιλογών για δέσμες με δυναμική τιμολόγηση."
@@ -2048,6 +2061,7 @@ Comma-separated.,"Διαχωρισμένες με κόμμα."
 "Default Product Layout","Προεπιλεγμένη Διάταξη Προϊόντος"
 "Default Category Layout","Προεπιλεγμένη Διάταξη Κατηγορίας"
 "Catalog media URL format","Μορφή URL πολυμέσων καταλόγου"
+"Images should be optimized based on query parameters by your CDN or web server. Use the legacy mode for backward compatibility. <a href=""https://docs.magento.com/user-guide/configuration/general/web.html#url-options"">Learn more</a> about catalog URL formats.<br/><br/><strong style=""color:red"">Warning!</strong> If you switch back to legacy mode, you must <a href=""https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/theme-images.html#resize-catalog-images"">use the CLI to regenerate images</a>.","Οι εικόνες θα πρέπει να βελτιστοποιούνται με βάση τις παραμέτρους ερωτήματος από το CDN ή το διακομιστή web σας. Χρησιμοποιήστε τη λειτουργία παλαιού τύπου για συμβατότητα προς τα πίσω. <a href=""https://docs.magento.com/user-guide/configuration/general/web.html#url-options"">Μάθετε περισσότερα</a> σχετικά με τις μορφές URL καταλόγου.<br/><br/><strong style=""color:red"">Προειδοποίηση!</strong> Αν επιστρέψετε σε λειτουργία παλαιού τύπου, πρέπει να <a href=""https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/theme-images.html#resize-catalog-images"">χρησιμοποιήσετε το CLI για να αναγεννήσετε τις εικόνες</a>."
 Quality,Ποιότητα
 "Jpeg quality for resized images 1-100%.","Ποιότητα Jpeg για αλλαγή μεγέθους εικόνων 1-100%."
 "Product Info Column","Στήλη Πληροφοριών Προϊόντος"
@@ -2321,6 +2335,7 @@ Allow,"Να επιτρέπεται"
 Deny,"Να Μην Επιτρέπεται"
 "Use parent","Χρήση Γονικού"
 "Category Permissions Section","Ενότητα Δικαιώματων Κατηγορίας"
+"<strong class=""warning-enable-permissions"">Warning!</strong> By default this feature restricts all categories.","<strong class=""warning-enable-permissions"">Προειδοποίηση!</strong> Από προεπιλογή, αυτή η δυνατότητα περιορίζει όλες τις κατηγορίες."
 "Allow Browsing Category","Επιτρέπεται η Περιήγηση Κατηγορίας"
 "Landing Page","Σελίδα προορισμού"
 "Allow Adding to Cart","Επιτρέψτε Προσθήκη στο Καλάθι"
@@ -4716,7 +4731,6 @@ Numeric,Αριθμητικό
 Generate,Δημιουργία
 "Code Pool used: ","Σύνολο κωδικού που χρησιμοποιείται: "
 " (free "," (δωρεάν "
-" of "," από "
 " total)."," συνολικά)."
 "Refund Gift Cards to Store Credit","Επιστροφή Δωροκαρτών στην Πίστωση Καταστήματος"
 "Amount can be returned to Store Credit.","Το ποσό μπορεί να επιστραφεί σε Πίστωση Καταστήματος."
@@ -6729,6 +6743,10 @@ Duration:,Διάρκεια:
 "Edit Cart Price Rules","Επεξεργασία κανόνων τιμών καλαθιού"
 "Edit Automated Email Reminder Rules","Επεξεργαστείτε τους Κανόνες των Αυτοματοποιημένων Email Υπενθύμισης"
 "Quick Order","Γρήγορη Παραγγελία"
+"There is no items to delete","Δεν υπάρχουν στοιχεία για διαγραφή"
+"Cannot update item list.","Αδύνατη η ενημέρωση της λίστας αντικειμένων."
+"Entered list is empty.","Η εισαγόμενη λίστα είναι κενή."
+"You entered item(s) with an empty SKU.","Εισάγατε αντικείμενο(α) με κενό SKU."
 "The uploaded CSV file does not contain a column labelled SKU. Make sure the first column is labelled SKU and that each line in the file contains a SKU value. Then upload the file again.","Το απεσταλμένο αρχείο CSV δεν περιέχει στήλη με ετικέτα SKU. Βεβαιωθείτε ότι η πρώτη στήλη έχει ετικέτα SKU και ότι στην κάθε γραμμή στο αρχείο περιλαμβάνεται τιμή SKU. Μετά ανεβάστε ξανά το αρχείο."
 "You should correct the quantity for the product.","Θα πρέπει να διορθώστε την ποσότητα για το προϊόν."
 "The SKU is out of stock.","Το SKU είναι εκτός αποθέματος."
@@ -9231,8 +9249,6 @@ testMessage,"Μήνυμα δοκιμής"
 "This is a demo store. No orders will be fulfilled.","Αυτό είναι δοκιμαστικό κατάστημα. Καμία παραγγελία δεν θα εκπληρωθεί."
 "Items %1 to %2 of %3 total","%1 στοιχεία για την %2 των %3 συνολικό"
 "%1 Item(s)","%1 είδος(η)"
-Page,Σελίδα
-"You're currently reading page","Διαβάζετε αυτή τη στιγμή τη σελίδα"
 "We don't recognize this file extension.","Δεν αναγνωρίζουμε αυτή την κατάληξη αρχείου."
 "1 column","1 στήλη"
 "Default welcome msg!","Προπιλεγμένο μήνυμα καλωσορίσματος!"
@@ -9287,7 +9303,6 @@ Translations,Μεταφράσεις
 Filters,Φίλτρα
 "The file upload field is disabled.","Το πεδίο φόρτωσης αρχείου είναι απενεργοποιημένο."
 "was not uploaded","δεν φορτώθηκε"
-Selected,Επιλεγμένο
 "Select All on This Page","Επιλογή Όλων σε Αυτή τη Σελίδα"
 "Deselect All on This Page","Αποεπιλογή Όλων σε Αυτή τη Σελίδα"
 On,Ενεργή
@@ -9606,7 +9621,9 @@ Machinable,Μηχανοποιήσιμη
 "Deletion failure. Please try again.","Αποτυχία διαγραφής. Παρακαλώ προσπαθήστε ξανά."
 "Stored Payment Method was successfully removed","Η αποθηκευμένη Μέθοδος Πληρωμής αφαιρέθηκε με επιτυχία"
 "Stored Payment Methods","Αποθηκευμένοι Τρόποι Πληρωμής"
+"No payment tokens are available for the specified order payment.","Δεν υπάρχουν διαθέσιμα διακριτικά πληρωμής για την καθορισμένη πληρωμή παραγγελίας."
 "You have no stored payment methods.","Δεν έχετε αποθηκευμένους τρόπους πληρωμής."
+"Are you sure you want to delete this card: %1?","Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την κάρτα: %1;"
 "Specify the ""public_hash"" value.","Καθορίστε την τιμή ""public_hash""."
 "Could not find a token using public hash: %1","Δεν μπόρεσε να βρεθεί ένα διακριτικό χρησιμοποιώντας το δημόσιο hash: %1"
 "Delete Current Hierarchy","Διαγράψτε την τρέχουσα ιεραρχία"
